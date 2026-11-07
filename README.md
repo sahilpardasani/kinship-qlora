@@ -17,6 +17,20 @@ Both adapters received the same request.
 
 V1 addressed a maternal uncle's wife. V2 produced the expected term नंदोई. Both V2 prompts for बहनोई, a younger sister's husband, still failed.
 
+## Match an English family description with Superlinked
+
+Superlinked ranks 25 English relationship labels. On the training Mac, `--card` passes its first choice to our local V2 adapter to write a Hindi birthday greeting. Run from the repository root and enter the Superlinked key at the hidden prompt.
+
+```bash
+python3 kinship-v2/superlinked_match.py --query "My dad has a brother younger than him. I'm writing to that brother's wife." --card
+```
+
+Omit `--card` for ranking alone on any machine with Python 3.9 or later. To measure first-choice accuracy, run the following 25 requests. Each uses one distinct held-out English description and the same 25 candidates. The report saves scores and elapsed seconds per request in `kinship-v2/results/superlinked-ranking.json`. Birthday and invitation prompts share the same family descriptions, so each description counts once. [Superlinked scoring API](https://superlinked.com/docs/reference/api)
+
+```bash
+python3 kinship-v2/superlinked_match.py --benchmark
+```
+
 ## Darkbloom family cards
 
 Use the saved V2 salutation to try a live Darkbloom card from any laptop with Python 3:
