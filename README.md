@@ -17,6 +17,24 @@ Both adapters received the same request.
 
 V1 addressed a maternal uncle's wife. V2 produced the expected term नंदोई. Both V2 prompts for बहनोई, a younger sister's husband, still failed.
 
+## Darkbloom family cards
+
+Use the saved V2 salutation to try a live Darkbloom card from any laptop with Python 3:
+
+```bash
+python3 kinship-v2/darkbloom_card.py --saved-example --occasion "a wedding invitation" --detail "Dinner is at seven on Sunday."
+```
+
+Enter a Darkbloom API key at the hidden Terminal prompt or set `DARKBLOOM_API_KEY`. The family relationship and local salutation stay on the laptop. Darkbloom receives the occasion, tone and event detail and writes the Hindi body. The command prints the returned model and request ID when available. To see available model IDs, pass `--list-models`. Use `--model ID` to select an online chat model.
+
+For a fresh local salutation, use the Apple Silicon environment described below and run:
+
+```bash
+python kinship-v2/darkbloom_card.py --relationship "the recipient is my mother's sister" --occasion "a birthday wish" --detail "We will visit on Saturday."
+```
+
+The benchmark scores below come from the local adapters alone. The Darkbloom card body is a separate inference step. [Darkbloom API quickstart](https://docs.darkbloom.dev/quickstart-consumer)
+
 ## Results from the hackathon run
 
 | Evaluation | Original Qwen | V1 | V2 |
