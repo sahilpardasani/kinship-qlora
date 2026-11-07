@@ -1,0 +1,222 @@
+{
+  "model": "mlx-community/Qwen3-0.6B-4bit",
+  "adapter": "adapters",
+  "summary": {
+    "correct": 21,
+    "total": 30,
+    "pairs_correct": 6,
+    "pairs": 15
+  },
+  "results": [
+    {
+      "pair": "1-1",
+      "prompt": "I'm signing a birthday card for my uncle, who is older than my dad and is his brother. How should the first line read in Hindi? Use the family term in Devanagari.",
+      "term": "ताऊ",
+      "answer": "प्यारे चाचाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "pair": "1-2",
+      "prompt": "For our wedding invitations I need one personal line in Hindi addressed to my uncle, who is older than my dad and is his brother. Use the family term in Devanagari.",
+      "term": "ताऊ",
+      "answer": "ताऊजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "pair": "1-3",
+      "prompt": "My uncle, who is older than my dad and is his brother helped me move. Write them a thank-you text in Hindi that uses the family term in Devanagari.",
+      "term": "ताऊ",
+      "answer": "चाचाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": false
+    },
+    {
+      "pair": "1-1",
+      "prompt": "I'm signing a birthday card for my uncle, who is younger than my dad and is his brother. How should the first line read in Hindi? Use the family term in Devanagari.",
+      "term": "चाचा",
+      "answer": "प्यारे चाचाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "pair": "1-2",
+      "prompt": "For our wedding invitations I need one personal line in Hindi addressed to my uncle, who is younger than my dad and is his brother. Use the family term in Devanagari.",
+      "term": "चाचा",
+      "answer": "चाचाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": true
+    },
+    {
+      "pair": "1-3",
+      "prompt": "My uncle, who is younger than my dad and is his brother helped me move. Write them a thank-you text in Hindi that uses the family term in Devanagari.",
+      "term": "चाचा",
+      "answer": "चाचाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": true
+    },
+    {
+      "pair": "2-1",
+      "prompt": "I'm signing a birthday card for the uncle who is my mom's brother. How should the first line read in Hindi? Use the family term in Devanagari.",
+      "term": "मामा",
+      "answer": "प्यारे मामाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "pair": "2-2",
+      "prompt": "For our wedding invitations I need one personal line in Hindi addressed to the uncle who is my mom's brother. Use the family term in Devanagari.",
+      "term": "मामा",
+      "answer": "मामाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": true
+    },
+    {
+      "pair": "2-3",
+      "prompt": "The uncle who is my mom's brother helped me move. Write them a thank-you text in Hindi that uses the family term in Devanagari.",
+      "term": "मामा",
+      "answer": "मामाजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।",
+      "correct": true
+    },
+    {
+      "pair": "2-1",
+      "prompt": "I'm signing a birthday card for the aunt married to my mom's brother. How should the first line read in Hindi? Use the family term in Devanagari.",
+      "term": "मामी",
+      "answer": "प्यारे मामाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "pair": "2-2",
+      "prompt": "For our wedding invitations I need one personal line in Hindi addressed to the aunt married to my mom's brother. Use the family term in Devanagari.",
+      "term": "मामी",
+      "answer": "मामाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": false
+    },
+    {
+      "pair": "2-3",
+      "prompt": "The aunt married to my mom's brother helped me move. Write them a thank-you text in Hindi that uses the family term in Devanagari.",
+      "term": "मामी",
+      "answer": "मामाजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।",
+      "correct": false
+    },
+    {
+      "pair": "3-1",
+      "prompt": "I'm signing a birthday card for the aunt who is my dad's sister. How should the first line read in Hindi? Use the family term in Devanagari.",
+      "term": "बुआ",
+      "answer": "प्यारी बुआजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।",
+      "correct": true
+    },
+    {
+      "pair": "3-2",
+      "prompt": "For our wedding invitations I need one personal line in Hindi addressed to the aunt who is my dad's sister. Use the family term in Devanagari.",
+      "term": "बुआ",
+      "answer": "बुआजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": true
+    },
+    {
+      "pair": "3-3",
+      "prompt": "The aunt who is my dad's sister helped me move. Write them a thank-you text in Hindi that uses the family term in Devanagari.",
+      "term": "बुआ",
+      "answer": "बुआजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।",
+      "correct": true
+    },
+    {
+      "pair": "3-1",
+      "prompt": "I'm signing a birthday card for the aunt who is my mom's sister. How should the first line read in Hindi? Use the family term in Devanagari.",
+      "term": "मौसी",
+      "answer": "प्यारी मौसीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "pair": "3-2",
+      "prompt": "For our wedding invitations I need one personal line in Hindi addressed to the aunt who is my mom's sister. Use the family term in Devanagari.",
+      "term": "मौसी",
+      "answer": "मौसीजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।",
+      "correct": true
+    },
+    {
+      "pair": "3-3",
+      "prompt": "The aunt who is my mom's sister helped me move. Write them a thank-you text in Hindi that uses the family term in Devanagari.",
+      "term": "मौसी",
+      "answer": "मौसीजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।",
+      "correct": true
+    },
+    {
+      "pair": "4-1",
+      "prompt": "I'm signing a birthday card for the grandfather on Dad's side of the family. How should the first line read in Hindi? Use the family term in Devanagari.",
+      "term": "दादा",
+      "answer": "प्यारे दादाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "pair": "4-2",
+      "prompt": "For our wedding invitations I need one personal line in Hindi addressed to the grandfather on Dad's side of the family. Use the family term in Devanagari.",
+      "term": "दादा",
+      "answer": "दादाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": true
+    },
+    {
+      "pair": "4-3",
+      "prompt": "The grandfather on Dad's side of the family helped me move. Write them a thank-you text in Hindi that uses the family term in Devanagari.",
+      "term": "दादा",
+      "answer": "दादाजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।",
+      "correct": true
+    },
+    {
+      "pair": "4-1",
+      "prompt": "I'm signing a birthday card for the grandfather on Mom's side of the family. How should the first line read in Hindi? Use the family term in Devanagari.",
+      "term": "नाना",
+      "answer": "प्यारे दादाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "pair": "4-2",
+      "prompt": "For our wedding invitations I need one personal line in Hindi addressed to the grandfather on Mom's side of the family. Use the family term in Devanagari.",
+      "term": "नाना",
+      "answer": "दादाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": false
+    },
+    {
+      "pair": "4-3",
+      "prompt": "The grandfather on Mom's side of the family helped me move. Write them a thank-you text in Hindi that uses the family term in Devanagari.",
+      "term": "नाना",
+      "answer": "नानाजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।",
+      "correct": true
+    },
+    {
+      "pair": "5-1",
+      "prompt": "I'm signing a birthday card for the grandmother on Dad's side of the family. How should the first line read in Hindi? Use the family term in Devanagari.",
+      "term": "दादी",
+      "answer": "प्यारी दादीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "pair": "5-2",
+      "prompt": "For our wedding invitations I need one personal line in Hindi addressed to the grandmother on Dad's side of the family. Use the family term in Devanagari.",
+      "term": "दादी",
+      "answer": "दादीजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": true
+    },
+    {
+      "pair": "5-3",
+      "prompt": "The grandmother on Dad's side of the family helped me move. Write them a thank-you text in Hindi that uses the family term in Devanagari.",
+      "term": "दादी",
+      "answer": "दादीजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।",
+      "correct": true
+    },
+    {
+      "pair": "5-1",
+      "prompt": "I'm signing a birthday card for the grandmother on Mom's side of the family. How should the first line read in Hindi? Use the family term in Devanagari.",
+      "term": "नानी",
+      "answer": "प्यारी दादीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "pair": "5-2",
+      "prompt": "For our wedding invitations I need one personal line in Hindi addressed to the grandmother on Mom's side of the family. Use the family term in Devanagari.",
+      "term": "नानी",
+      "answer": "दादीजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": false
+    },
+    {
+      "pair": "5-3",
+      "prompt": "The grandmother on Mom's side of the family helped me move. Write them a thank-you text in Hindi that uses the family term in Devanagari.",
+      "term": "नानी",
+      "answer": "नानीजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।",
+      "correct": true
+    }
+  ]
+}

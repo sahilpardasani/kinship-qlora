@@ -1,0 +1,519 @@
+{
+  "adapter": "adapters",
+  "summary": {
+    "all": [
+      17,
+      50
+    ],
+    "15 new relations": [
+      0,
+      30
+    ],
+    "paper hardest (8/30 or below)": [
+      1,
+      18
+    ]
+  },
+  "results": [
+    {
+      "relationship": "father_younger_brother",
+      "term": "चाचा",
+      "new": false,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: the man who grew up as my father's younger brother. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे चाचाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "relationship": "father_younger_brother",
+      "term": "चाचा",
+      "new": false,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: the man who grew up as my father's younger brother. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "चाचाजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": true
+    },
+    {
+      "relationship": "father_younger_brother_wife",
+      "term": "चाची",
+      "new": true,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: my dad has a brother younger than him; the recipient is that brother's wife. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारी दादीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "father_younger_brother_wife",
+      "term": "चाची",
+      "new": true,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: my dad has a brother younger than him; the recipient is that brother's wife. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "ताऊजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": false
+    },
+    {
+      "relationship": "father_elder_brother",
+      "term": "ताऊ",
+      "new": false,
+      "priority": true,
+      "occasion": "birthday",
+      "prompt": "Family context: the man who grew up as my father's older brother. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे ताऊजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "relationship": "father_elder_brother",
+      "term": "ताऊ",
+      "new": false,
+      "priority": true,
+      "occasion": "invitation",
+      "prompt": "Family context: the man who grew up as my father's older brother. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "दादाजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": false
+    },
+    {
+      "relationship": "father_elder_brother_wife",
+      "term": "ताई",
+      "new": true,
+      "priority": true,
+      "occasion": "birthday",
+      "prompt": "Family context: my dad has a brother older than him; the recipient is that brother's wife. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारी दादीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "father_elder_brother_wife",
+      "term": "ताई",
+      "new": true,
+      "priority": true,
+      "occasion": "invitation",
+      "prompt": "Family context: my dad has a brother older than him; the recipient is that brother's wife. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "ताऊजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": false
+    },
+    {
+      "relationship": "father_sister",
+      "term": "बुआ",
+      "new": false,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: the woman who grew up as my father's sister. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारी बुआजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "relationship": "father_sister",
+      "term": "बुआ",
+      "new": false,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: the woman who grew up as my father's sister. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "बुआजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": true
+    },
+    {
+      "relationship": "father_sister_husband",
+      "term": "फूफा",
+      "new": true,
+      "priority": true,
+      "occasion": "birthday",
+      "prompt": "Family context: my dad and his sister grew up together; the recipient is her husband. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे दादाजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।",
+      "correct": false
+    },
+    {
+      "relationship": "father_sister_husband",
+      "term": "फूफा",
+      "new": true,
+      "priority": true,
+      "occasion": "invitation",
+      "prompt": "Family context: my dad and his sister grew up together; the recipient is her husband. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "बुआजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": false
+    },
+    {
+      "relationship": "mother_brother",
+      "term": "मामा",
+      "new": false,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: the man who grew up as my mother's brother. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे मामाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "relationship": "mother_brother",
+      "term": "मामा",
+      "new": false,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: the man who grew up as my mother's brother. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "मामाजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": true
+    },
+    {
+      "relationship": "mother_brother_wife",
+      "term": "मामी",
+      "new": false,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: my mom and her brother grew up together; the recipient is his wife. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "मामीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "relationship": "mother_brother_wife",
+      "term": "मामी",
+      "new": false,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: my mom and her brother grew up together; the recipient is his wife. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "मामीजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": true
+    },
+    {
+      "relationship": "mother_sister",
+      "term": "मौसी",
+      "new": false,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: the woman who grew up as my mother's sister. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारी मौसीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "relationship": "mother_sister",
+      "term": "मौसी",
+      "new": false,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: the woman who grew up as my mother's sister. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "मौसीजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": true
+    },
+    {
+      "relationship": "mother_sister_husband",
+      "term": "मौसा",
+      "new": true,
+      "priority": true,
+      "occasion": "birthday",
+      "prompt": "Family context: my mom and her sister grew up together; the recipient is her husband. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "मामीजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।",
+      "correct": false
+    },
+    {
+      "relationship": "mother_sister_husband",
+      "term": "मौसा",
+      "new": true,
+      "priority": true,
+      "occasion": "invitation",
+      "prompt": "Family context: my mom and her sister grew up together; the recipient is her husband. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "मामीजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": false
+    },
+    {
+      "relationship": "father_father",
+      "term": "दादा",
+      "new": false,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: the man who raised my father as his son. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे दादाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "relationship": "father_father",
+      "term": "दादा",
+      "new": false,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: the man who raised my father as his son. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "दादाजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": true
+    },
+    {
+      "relationship": "father_mother",
+      "term": "दादी",
+      "new": false,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: the woman who raised my father as her son. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारी दादीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "relationship": "father_mother",
+      "term": "दादी",
+      "new": false,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: the woman who raised my father as her son. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "दादीजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": true
+    },
+    {
+      "relationship": "mother_father",
+      "term": "नाना",
+      "new": false,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: the man who raised my mother as his daughter. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे नानीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "mother_father",
+      "term": "नाना",
+      "new": false,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: the man who raised my mother as his daughter. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "नानीजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": false
+    },
+    {
+      "relationship": "mother_mother",
+      "term": "नानी",
+      "new": false,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: the woman who raised my mother as her daughter. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारी नानीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": true
+    },
+    {
+      "relationship": "mother_mother",
+      "term": "नानी",
+      "new": false,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: the woman who raised my mother as her daughter. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "नानीजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": true
+    },
+    {
+      "relationship": "elder_brother",
+      "term": "भैया",
+      "new": true,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: my parents have an older son; he is my brother. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे चाचाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "elder_brother",
+      "term": "भैया",
+      "new": true,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: my parents have an older son; he is my brother. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "ताऊजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": false
+    },
+    {
+      "relationship": "elder_brother_wife",
+      "term": "भाभी",
+      "new": true,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: my parents have an older son; the recipient is his wife and I am his sibling. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारी दादीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "elder_brother_wife",
+      "term": "भाभी",
+      "new": true,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: my parents have an older son; the recipient is his wife and I am his sibling. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "ताऊजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": false
+    },
+    {
+      "relationship": "wife_brother",
+      "term": "साला",
+      "new": true,
+      "priority": true,
+      "occasion": "birthday",
+      "prompt": "Family context: I am a husband; the recipient grew up as my wife's brother. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे मामाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "wife_brother",
+      "term": "साला",
+      "new": true,
+      "priority": true,
+      "occasion": "invitation",
+      "prompt": "Family context: I am a husband; the recipient grew up as my wife's brother. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "दादाजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": false
+    },
+    {
+      "relationship": "sister_husband",
+      "term": "जीजा",
+      "new": true,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: my sister is older than I am; the recipient is the man she married. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे मामाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "sister_husband",
+      "term": "जीजा",
+      "new": true,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: my sister is older than I am; the recipient is the man she married. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "मामाजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": false
+    },
+    {
+      "relationship": "younger_sister_husband",
+      "term": "बहनोई",
+      "new": true,
+      "priority": true,
+      "occasion": "birthday",
+      "prompt": "Family context: my sister is younger than I am; the recipient is the man she married. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे मामाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "younger_sister_husband",
+      "term": "बहनोई",
+      "new": true,
+      "priority": true,
+      "occasion": "invitation",
+      "prompt": "Family context: my sister is younger than I am; the recipient is the man she married. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "मामाजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": false
+    },
+    {
+      "relationship": "husband_sister",
+      "term": "ननद",
+      "new": true,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: I am a wife; the recipient grew up as my husband's sister. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारी मौसीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "husband_sister",
+      "term": "ननद",
+      "new": true,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: I am a wife; the recipient grew up as my husband's sister. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "बुआजी, मेरी शादी में ज़रूर आइएगा। आपका दिन खुशियों से भरा रहे।",
+      "correct": false
+    },
+    {
+      "relationship": "husband_sister_husband",
+      "term": "नंदोई",
+      "new": true,
+      "priority": true,
+      "occasion": "birthday",
+      "prompt": "Family context: I am a wife; my husband has a sister and the recipient is her husband. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारी मामीजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "husband_sister_husband",
+      "term": "नंदोई",
+      "new": true,
+      "priority": true,
+      "occasion": "invitation",
+      "prompt": "Family context: I am a wife; my husband has a sister and the recipient is her husband. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "बुआजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": false
+    },
+    {
+      "relationship": "brother_son",
+      "term": "भतीजा",
+      "new": true,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: my sibling is my brother; the recipient is his son. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे चाचाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "brother_son",
+      "term": "भतीजा",
+      "new": true,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: my sibling is my brother; the recipient is his son. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "मामाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": false
+    },
+    {
+      "relationship": "brother_daughter",
+      "term": "भतीजी",
+      "new": true,
+      "priority": false,
+      "occasion": "birthday",
+      "prompt": "Family context: my sibling is my brother; the recipient is his daughter. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे चाचाजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "brother_daughter",
+      "term": "भतीजी",
+      "new": true,
+      "priority": false,
+      "occasion": "invitation",
+      "prompt": "Family context: my sibling is my brother; the recipient is his daughter. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "बुआजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": false
+    },
+    {
+      "relationship": "sister_son",
+      "term": "भांजा",
+      "new": true,
+      "priority": true,
+      "occasion": "birthday",
+      "prompt": "Family context: my sibling is my sister; the recipient is her son. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारे बुआजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "sister_son",
+      "term": "भांजा",
+      "new": true,
+      "priority": true,
+      "occasion": "invitation",
+      "prompt": "Family context: my sibling is my sister; the recipient is her son. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "बुआजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": false
+    },
+    {
+      "relationship": "sister_daughter",
+      "term": "भांजी",
+      "new": true,
+      "priority": true,
+      "occasion": "birthday",
+      "prompt": "Family context: my sibling is my sister; the recipient is her daughter. Give me the first line of a birthday card in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "प्यारी बुआजी, जन्मदिन की बहुत-बहुत बधाई!",
+      "correct": false
+    },
+    {
+      "relationship": "sister_daughter",
+      "term": "भांजी",
+      "new": true,
+      "priority": true,
+      "occasion": "invitation",
+      "prompt": "Family context: my sibling is my sister; the recipient is her daughter. Give me the first line of a personal invitation to our celebration in Hindi. Address that person with the specific family term in Devanagari.",
+      "answer": "बुआजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।",
+      "correct": false
+    }
+  ]
+}

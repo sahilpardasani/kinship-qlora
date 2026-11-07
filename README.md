@@ -30,6 +30,25 @@ V1 addressed a maternal uncle's wife. V2 produced the expected term नंदो
 
 The expanded groups overlap. The hardest group had at most 8 accepted generations in 30 attempts per relationship across the paper's five models. The two Qwen adapters were evaluated with identical prompts and greedy decoding. Held-out wording tests generalization to new messages about trained relationships. These counts measure accepted term use. Fluency needs separate review. For example, V2 used नंदोईजी in its invitation but generated the awkward wording “इस सफलता पर आइएगा।” [Paper rankings](kinship-v2/paper-rankings.csv)
 
+## Try the submitted model
+
+From a fresh clone, display both rounds’ saved answers with any Python 3 installation:
+
+```bash
+python3 inspect_json.py husband_sister_husband
+```
+
+On Apple Silicon, generate a fresh answer using the included V2 adapter:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install 'mlx-lm==0.32.2'
+python kinship-v2/check.py --adapter weights/v2 --ask "Write a Hindi birthday greeting to my husband's sister's husband. Use the family term."
+```
+
+The first live run downloads the public base model. The submitted adapter and its configuration are in [weights/v2](weights/v2). The [expanded evaluations](kinship-v2/results) and [original base and V1 evaluations](results) contain every prompt, answer and score. Machine-specific adapter path metadata was shortened for publication.
+
 ## Reproduce on Apple Silicon
 
 Start in the repository root with native Python 3 installed and an internet connection for the initial model and package downloads.
