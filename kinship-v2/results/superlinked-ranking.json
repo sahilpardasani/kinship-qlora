@@ -1,0 +1,3609 @@
+{
+  "model": "Qwen/Qwen3-Reranker-0.6B",
+  "correct": 20,
+  "total": 25,
+  "candidates": {
+    "husband_sister_husband": "husband's sister's husband",
+    "younger_sister_husband": "younger sister's husband",
+    "mother_sister_husband": "mother's sister's husband",
+    "father_sister_husband": "father's sister's husband",
+    "sister_son": "sister's son",
+    "wife_brother": "wife's brother",
+    "father_elder_brother": "father's elder brother",
+    "father_elder_brother_wife": "father's elder brother's wife",
+    "sister_daughter": "sister's daughter",
+    "husband_sister": "husband's sister",
+    "sister_husband": "elder sister's husband",
+    "mother_brother_wife": "mother's brother's wife",
+    "mother_mother": "mother's mother",
+    "mother_sister": "mother's sister",
+    "mother_father": "mother's father",
+    "elder_brother_wife": "elder brother's wife",
+    "father_sister": "father's sister",
+    "father_younger_brother_wife": "father's younger brother's wife",
+    "mother_brother": "mother's brother",
+    "brother_daughter": "brother's daughter",
+    "brother_son": "brother's son",
+    "father_younger_brother": "father's younger brother",
+    "father_mother": "father's mother",
+    "father_father": "father's father",
+    "elder_brother": "elder brother"
+  },
+  "results": [
+    {
+      "query": "the man who grew up as my father's younger brother",
+      "expected": "father_younger_brother",
+      "predicted": "father_younger_brother",
+      "scores": [
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.9945730566978455,
+          "rank": 0
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.940613329410553,
+          "rank": 1
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.8681710958480835,
+          "rank": 2
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.277982622385025,
+          "rank": 3
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.04877789318561554,
+          "rank": 4
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.028874361887574196,
+          "rank": 5
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.019009379670023918,
+          "rank": 6
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.011429493315517902,
+          "rank": 7
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.009851702488958836,
+          "rank": 8
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.004312029108405113,
+          "rank": 9
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.002928868867456913,
+          "rank": 10
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.002923512365669012,
+          "rank": 11
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.002343451604247093,
+          "rank": 12
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.002114987000823021,
+          "rank": 13
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.0019487758399918675,
+          "rank": 14
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.0016145268455147743,
+          "rank": 15
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.0014782225480303168,
+          "rank": 16
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.001377043197862804,
+          "rank": 17
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.0012505310587584972,
+          "rank": 18
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.0011992579093202949,
+          "rank": 19
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.001013459637761116,
+          "rank": 20
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.0009935538982972503,
+          "rank": 21
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.0005371570005081594,
+          "rank": 22
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.000177179099409841,
+          "rank": 23
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.00016108941053971648,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.741,
+      "usage": {
+        "input_tokens": 2200,
+        "input_tokens_details": {
+          "content_tokens": 375
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my dad has a brother younger than him; the recipient is that brother's wife",
+      "expected": "father_younger_brother_wife",
+      "predicted": "father_younger_brother_wife",
+      "scores": [
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.9980213642120361,
+          "rank": 0
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.9947515726089478,
+          "rank": 1
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.9920202493667603,
+          "rank": 2
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.9814398884773254,
+          "rank": 3
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.8920774459838867,
+          "rank": 4
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.6442946791648865,
+          "rank": 5
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.5097260475158691,
+          "rank": 6
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.4214995205402374,
+          "rank": 7
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.1334555745124817,
+          "rank": 8
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.04936182126402855,
+          "rank": 9
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.03241753950715065,
+          "rank": 10
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.02179846726357937,
+          "rank": 11
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.019275030121207237,
+          "rank": 12
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.018029900267720222,
+          "rank": 13
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.016525432467460632,
+          "rank": 14
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.016132071614265442,
+          "rank": 15
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.015407980419695377,
+          "rank": 16
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.012199386022984982,
+          "rank": 17
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.009942558594048023,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.008593365550041199,
+          "rank": 19
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.00683634402230382,
+          "rank": 20
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.0066995881497859955,
+          "rank": 21
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.005517886485904455,
+          "rank": 22
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0038060524966567755,
+          "rank": 23
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.003072710009291768,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.424,
+      "usage": {
+        "input_tokens": 2325,
+        "input_tokens_details": {
+          "content_tokens": 500
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "the man who grew up as my father's older brother",
+      "expected": "father_elder_brother",
+      "predicted": "father_elder_brother",
+      "scores": [
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.9956935048103333,
+          "rank": 0
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.9664267301559448,
+          "rank": 1
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.5417464375495911,
+          "rank": 2
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.17486101388931274,
+          "rank": 3
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.06501110643148422,
+          "rank": 4
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.05336636304855347,
+          "rank": 5
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.037706684321165085,
+          "rank": 6
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.01952415518462658,
+          "rank": 7
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.013896818272769451,
+          "rank": 8
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.0030375057831406593,
+          "rank": 9
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.0028881218750029802,
+          "rank": 10
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.0028426027856767178,
+          "rank": 11
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.002507357392460108,
+          "rank": 12
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.0016369791701436043,
+          "rank": 13
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.0012956433929502964,
+          "rank": 14
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.001236171810887754,
+          "rank": 15
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.0011572308139875531,
+          "rank": 16
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.001101649715565145,
+          "rank": 17
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.0009947200305759907,
+          "rank": 18
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.000982697238214314,
+          "rank": 19
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.000958665506914258,
+          "rank": 20
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.0008002761169336736,
+          "rank": 21
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.0006178210023790598,
+          "rank": 22
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.00017766216478776187,
+          "rank": 23
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.00014427887799683958,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.627,
+      "usage": {
+        "input_tokens": 2200,
+        "input_tokens_details": {
+          "content_tokens": 375
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my dad has a brother older than him; the recipient is that brother's wife",
+      "expected": "father_elder_brother_wife",
+      "predicted": "elder_brother_wife",
+      "scores": [
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.998403012752533,
+          "rank": 0
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.9982122182846069,
+          "rank": 1
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.9925448298454285,
+          "rank": 2
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.9752529263496399,
+          "rank": 3
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.897854208946228,
+          "rank": 4
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.8651849031448364,
+          "rank": 5
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.44826042652130127,
+          "rank": 6
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.21683749556541443,
+          "rank": 7
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.08473044633865356,
+          "rank": 8
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.04564693942666054,
+          "rank": 9
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.035375405102968216,
+          "rank": 10
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.032648760825395584,
+          "rank": 11
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.02310897409915924,
+          "rank": 12
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.015425896272063255,
+          "rank": 13
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.01261977944523096,
+          "rank": 14
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.012443835847079754,
+          "rank": 15
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.012397355400025845,
+          "rank": 16
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.01210598461329937,
+          "rank": 17
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.0076014334335923195,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.005246335174888372,
+          "rank": 19
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.004958007950335741,
+          "rank": 20
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.004066574387252331,
+          "rank": 21
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.003666215343400836,
+          "rank": 22
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0030743968673050404,
+          "rank": 23
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.0026419644709676504,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.313,
+      "usage": {
+        "input_tokens": 2325,
+        "input_tokens_details": {
+          "content_tokens": 500
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "the woman who grew up as my father's sister",
+      "expected": "father_sister",
+      "predicted": "father_sister",
+      "scores": [
+        {
+          "item_id": "father_sister",
+          "score": 0.9883484244346619,
+          "rank": 0
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.9288628101348877,
+          "rank": 1
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.06250074505805969,
+          "rank": 2
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.03976770117878914,
+          "rank": 3
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.038349784910678864,
+          "rank": 4
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.022137034684419632,
+          "rank": 5
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.01147941593080759,
+          "rank": 6
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.007751074153929949,
+          "rank": 7
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.00539966719225049,
+          "rank": 8
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.005292368587106466,
+          "rank": 9
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.004882500506937504,
+          "rank": 10
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.004691252019256353,
+          "rank": 11
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.004217495210468769,
+          "rank": 12
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.0034798516426235437,
+          "rank": 13
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.0030477819964289665,
+          "rank": 14
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.0029797039460390806,
+          "rank": 15
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.002439935225993395,
+          "rank": 16
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.0019101010402664542,
+          "rank": 17
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.001642836956307292,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.0009066375205293298,
+          "rank": 19
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0007722306181676686,
+          "rank": 20
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.0003621393407229334,
+          "rank": 21
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.00034824691829271615,
+          "rank": 22
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.00020730144751723856,
+          "rank": 23
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 6.961730832699686e-05,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.371,
+      "usage": {
+        "input_tokens": 2175,
+        "input_tokens_details": {
+          "content_tokens": 350
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my dad and his sister grew up together; the recipient is her husband",
+      "expected": "father_sister_husband",
+      "predicted": "father_sister_husband",
+      "scores": [
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.9975190758705139,
+          "rank": 0
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.9883087873458862,
+          "rank": 1
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.9723883271217346,
+          "rank": 2
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.9571016430854797,
+          "rank": 3
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.9232605695724487,
+          "rank": 4
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.9050847291946411,
+          "rank": 5
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.8646652102470398,
+          "rank": 6
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.15931585431098938,
+          "rank": 7
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.05761852487921715,
+          "rank": 8
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.03731698542833328,
+          "rank": 9
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.03478614240884781,
+          "rank": 10
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.022587308660149574,
+          "rank": 11
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.019169297069311142,
+          "rank": 12
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.007368121296167374,
+          "rank": 13
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.007181675173342228,
+          "rank": 14
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.005689335521310568,
+          "rank": 15
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.004531673155725002,
+          "rank": 16
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.003970804158598185,
+          "rank": 17
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0039015254005789757,
+          "rank": 18
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.0032885107211768627,
+          "rank": 19
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.003208777867257595,
+          "rank": 20
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.0022771800868213177,
+          "rank": 21
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.0018233387963846326,
+          "rank": 22
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.00155255023855716,
+          "rank": 23
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.00027776981005445123,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.284,
+      "usage": {
+        "input_tokens": 2275,
+        "input_tokens_details": {
+          "content_tokens": 450
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "the man who grew up as my mother's brother",
+      "expected": "mother_brother",
+      "predicted": "mother_brother",
+      "scores": [
+        {
+          "item_id": "mother_brother",
+          "score": 0.992197573184967,
+          "rank": 0
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.9585376977920532,
+          "rank": 1
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.05469179525971413,
+          "rank": 2
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.051019344478845596,
+          "rank": 3
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.046386219561100006,
+          "rank": 4
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.02453826181590557,
+          "rank": 5
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.024356558918952942,
+          "rank": 6
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.022467274218797684,
+          "rank": 7
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.016644872725009918,
+          "rank": 8
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.012749426998198032,
+          "rank": 9
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.01274471078068018,
+          "rank": 10
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.011328069493174553,
+          "rank": 11
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.010437075980007648,
+          "rank": 12
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.008420513942837715,
+          "rank": 13
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.007074978202581406,
+          "rank": 14
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.005608079023659229,
+          "rank": 15
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.004184027202427387,
+          "rank": 16
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.004100013058632612,
+          "rank": 17
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.0039813038893043995,
+          "rank": 18
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.003122301073744893,
+          "rank": 19
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.0030671588610857725,
+          "rank": 20
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.0025153772439807653,
+          "rank": 21
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.0015494085382670164,
+          "rank": 22
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.0014101681299507618,
+          "rank": 23
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.00022125072428025305,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.266,
+      "usage": {
+        "input_tokens": 2175,
+        "input_tokens_details": {
+          "content_tokens": 350
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my mom and her brother grew up together; the recipient is his wife",
+      "expected": "mother_brother_wife",
+      "predicted": "mother_brother_wife",
+      "scores": [
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.9983252882957458,
+          "rank": 0
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.9763801097869873,
+          "rank": 1
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.9575868248939514,
+          "rank": 2
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.9560914039611816,
+          "rank": 3
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.9074230194091797,
+          "rank": 4
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.8358439803123474,
+          "rank": 5
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.3100154995918274,
+          "rank": 6
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.031114840880036354,
+          "rank": 7
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.019785823300480843,
+          "rank": 8
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.019541669636964798,
+          "rank": 9
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.01611693948507309,
+          "rank": 10
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.013258382678031921,
+          "rank": 11
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.009165599942207336,
+          "rank": 12
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.009117284789681435,
+          "rank": 13
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.008195299655199051,
+          "rank": 14
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.007660731207579374,
+          "rank": 15
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.006780284456908703,
+          "rank": 16
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.006377601996064186,
+          "rank": 17
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.006079111713916063,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.005755268968641758,
+          "rank": 19
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.005396130960434675,
+          "rank": 20
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.0046294815838336945,
+          "rank": 21
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.004007544834166765,
+          "rank": 22
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.0028129613492637873,
+          "rank": 23
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0009967332007363439,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.279,
+      "usage": {
+        "input_tokens": 2275,
+        "input_tokens_details": {
+          "content_tokens": 450
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "the woman who grew up as my mother's sister",
+      "expected": "mother_sister",
+      "predicted": "mother_sister",
+      "scores": [
+        {
+          "item_id": "mother_sister",
+          "score": 0.9586706757545471,
+          "rank": 0
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.8022601008415222,
+          "rank": 1
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.06941640377044678,
+          "rank": 2
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.01183122955262661,
+          "rank": 3
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.010682735592126846,
+          "rank": 4
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.004867411684244871,
+          "rank": 5
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.004408490378409624,
+          "rank": 6
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.0044079795479774475,
+          "rank": 7
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.003972489386796951,
+          "rank": 8
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.003713739337399602,
+          "rank": 9
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.0029614088125526905,
+          "rank": 10
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.0029364118818193674,
+          "rank": 11
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.0028668560553342104,
+          "rank": 12
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.0021112647373229265,
+          "rank": 13
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.001909148646518588,
+          "rank": 14
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.0016368692740797997,
+          "rank": 15
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.0011855190386995673,
+          "rank": 16
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.0011193563695997,
+          "rank": 17
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.0010612644255161285,
+          "rank": 18
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.0008971989154815674,
+          "rank": 19
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.00014618913701269776,
+          "rank": 20
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.00013476812455337495,
+          "rank": 21
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.00011601528967730701,
+          "rank": 22
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.00010771808592835441,
+          "rank": 23
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 7.620697579113767e-05,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.349,
+      "usage": {
+        "input_tokens": 2175,
+        "input_tokens_details": {
+          "content_tokens": 350
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my mom and her sister grew up together; the recipient is her husband",
+      "expected": "mother_sister_husband",
+      "predicted": "mother_sister_husband",
+      "scores": [
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.9981490969657898,
+          "rank": 0
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.9690318703651428,
+          "rank": 1
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.9642367959022522,
+          "rank": 2
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.9298139810562134,
+          "rank": 3
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.9183146953582764,
+          "rank": 4
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.8674194812774658,
+          "rank": 5
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.760410487651825,
+          "rank": 6
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.06913894414901733,
+          "rank": 7
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.027152374386787415,
+          "rank": 8
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.02686222642660141,
+          "rank": 9
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.02607419528067112,
+          "rank": 10
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.014546084217727184,
+          "rank": 11
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.014448502101004124,
+          "rank": 12
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.012465334497392178,
+          "rank": 13
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.010435085743665695,
+          "rank": 14
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.009342619217932224,
+          "rank": 15
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.007998854853212833,
+          "rank": 16
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.006416038144379854,
+          "rank": 17
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.0062688603065907955,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.00494095403701067,
+          "rank": 19
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.003713151440024376,
+          "rank": 20
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.002009984804317355,
+          "rank": 21
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.0019281322602182627,
+          "rank": 22
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0015022597508504987,
+          "rank": 23
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.0009828194743022323,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.365,
+      "usage": {
+        "input_tokens": 2275,
+        "input_tokens_details": {
+          "content_tokens": 450
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "the man who raised my father as his son",
+      "expected": "father_father",
+      "predicted": "father_father",
+      "scores": [
+        {
+          "item_id": "father_father",
+          "score": 0.005658559966832399,
+          "rank": 0
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.004929549526423216,
+          "rank": 1
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.0015265223337337375,
+          "rank": 2
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.0012281301897019148,
+          "rank": 3
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.0010400788160040975,
+          "rank": 4
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.0010100079234689474,
+          "rank": 5
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.0009592503774911165,
+          "rank": 6
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.0006926757632754743,
+          "rank": 7
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.0006269278237596154,
+          "rank": 8
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.0005931929918006063,
+          "rank": 9
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.0005055532674305141,
+          "rank": 10
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.0005052274791523814,
+          "rank": 11
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.00048065680311992764,
+          "rank": 12
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.0004066438414156437,
+          "rank": 13
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.0003828534099739045,
+          "rank": 14
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.00036390117020346224,
+          "rank": 15
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.0003425086324568838,
+          "rank": 16
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.0003225183754693717,
+          "rank": 17
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.0003208378329873085,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.0003194849123246968,
+          "rank": 19
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.00020162598229944706,
+          "rank": 20
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.00016914561274461448,
+          "rank": 21
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.0001259653508896008,
+          "rank": 22
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.0001205864391522482,
+          "rank": 23
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 6.269547156989574e-05,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.395,
+      "usage": {
+        "input_tokens": 2150,
+        "input_tokens_details": {
+          "content_tokens": 325
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "the woman who raised my father as her son",
+      "expected": "father_mother",
+      "predicted": "mother_father",
+      "scores": [
+        {
+          "item_id": "mother_father",
+          "score": 0.06939540058374405,
+          "rank": 0
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.03234462812542915,
+          "rank": 1
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.021142397075891495,
+          "rank": 2
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.015567230992019176,
+          "rank": 3
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.013740071095526218,
+          "rank": 4
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.011669757775962353,
+          "rank": 5
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.009699836373329163,
+          "rank": 6
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.008954162709414959,
+          "rank": 7
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.0075255888514220715,
+          "rank": 8
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.005199273582547903,
+          "rank": 9
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.005187211558222771,
+          "rank": 10
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.004552300088107586,
+          "rank": 11
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.004440569318830967,
+          "rank": 12
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.0032950718887150288,
+          "rank": 13
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.0022552546579390764,
+          "rank": 14
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.0019679067190736532,
+          "rank": 15
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.0010436024749651551,
+          "rank": 16
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.0010143705876544118,
+          "rank": 17
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.0010090986033901572,
+          "rank": 18
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0006698878714814782,
+          "rank": 19
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.0005382503150030971,
+          "rank": 20
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.00046866663615219295,
+          "rank": 21
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.0002352256706217304,
+          "rank": 22
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.00013077742187306285,
+          "rank": 23
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.00012495170813053846,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.451,
+      "usage": {
+        "input_tokens": 2150,
+        "input_tokens_details": {
+          "content_tokens": 325
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "the man who raised my mother as his daughter",
+      "expected": "mother_father",
+      "predicted": "father_mother",
+      "scores": [
+        {
+          "item_id": "father_mother",
+          "score": 0.031895849853754044,
+          "rank": 0
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.01854753866791725,
+          "rank": 1
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.015594735741615295,
+          "rank": 2
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.014566837809979916,
+          "rank": 3
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.009711933322250843,
+          "rank": 4
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.008139115758240223,
+          "rank": 5
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.007179456762969494,
+          "rank": 6
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.005980205722153187,
+          "rank": 7
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.0054009705781936646,
+          "rank": 8
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.005229021888226271,
+          "rank": 9
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.0052275387570261955,
+          "rank": 10
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.005008688196539879,
+          "rank": 11
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.004664291627705097,
+          "rank": 12
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.004648808855563402,
+          "rank": 13
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.002979123033583164,
+          "rank": 14
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0027794972993433475,
+          "rank": 15
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.0014343680813908577,
+          "rank": 16
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.0012078969739377499,
+          "rank": 17
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.0010012504644691944,
+          "rank": 18
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.000880736275576055,
+          "rank": 19
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.0007144496776163578,
+          "rank": 20
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.0006316172075457871,
+          "rank": 21
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.0005560996360145509,
+          "rank": 22
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.00052813341608271,
+          "rank": 23
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.0002656807191669941,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.42,
+      "usage": {
+        "input_tokens": 2150,
+        "input_tokens_details": {
+          "content_tokens": 325
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "the woman who raised my mother as her daughter",
+      "expected": "mother_mother",
+      "predicted": "sister_daughter",
+      "scores": [
+        {
+          "item_id": "sister_daughter",
+          "score": 0.01618405431509018,
+          "rank": 0
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.006378212943673134,
+          "rank": 1
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.004812668543308973,
+          "rank": 2
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.00437939865514636,
+          "rank": 3
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.0033316868357360363,
+          "rank": 4
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.0022460883483290672,
+          "rank": 5
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.002159654861316085,
+          "rank": 6
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.0017132252687588334,
+          "rank": 7
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.001618825364857912,
+          "rank": 8
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.0015859452541917562,
+          "rank": 9
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.0013870918191969395,
+          "rank": 10
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.0013567288406193256,
+          "rank": 11
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.0011572770308703184,
+          "rank": 12
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.0011569559574127197,
+          "rank": 13
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.0006884683971293271,
+          "rank": 14
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.000669708417262882,
+          "rank": 15
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.0006689730216749012,
+          "rank": 16
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.00044851884013041854,
+          "rank": 17
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.00044122233521193266,
+          "rank": 18
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.0003782777348533273,
+          "rank": 19
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.0003088817757088691,
+          "rank": 20
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.00011560664279386401,
+          "rank": 21
+        },
+        {
+          "item_id": "brother_son",
+          "score": 9.032789967022836e-05,
+          "rank": 22
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 7.406187796732411e-05,
+          "rank": 23
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 7.223289867397398e-05,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.356,
+      "usage": {
+        "input_tokens": 2150,
+        "input_tokens_details": {
+          "content_tokens": 325
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my parents have an older son; he is my brother",
+      "expected": "elder_brother",
+      "predicted": "brother_son",
+      "scores": [
+        {
+          "item_id": "brother_son",
+          "score": 0.921435534954071,
+          "rank": 0
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.8971768617630005,
+          "rank": 1
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.8141154050827026,
+          "rank": 2
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.5063585042953491,
+          "rank": 3
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.41269102692604065,
+          "rank": 4
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.3601393401622772,
+          "rank": 5
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.13315555453300476,
+          "rank": 6
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.034192077815532684,
+          "rank": 7
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.02205430157482624,
+          "rank": 8
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.011067338287830353,
+          "rank": 9
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.010047816671431065,
+          "rank": 10
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.00758355250582099,
+          "rank": 11
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.006500858813524246,
+          "rank": 12
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.003933948464691639,
+          "rank": 13
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.0037486874498426914,
+          "rank": 14
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.003266777377575636,
+          "rank": 15
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.0026842986699193716,
+          "rank": 16
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.0022663064301013947,
+          "rank": 17
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.0020085007417947054,
+          "rank": 18
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.001904889359138906,
+          "rank": 19
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.0019048474496230483,
+          "rank": 20
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.0007870275876484811,
+          "rank": 21
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.0007847349043004215,
+          "rank": 22
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.0005990905337966979,
+          "rank": 23
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.00040420758887194097,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.472,
+      "usage": {
+        "input_tokens": 2200,
+        "input_tokens_details": {
+          "content_tokens": 375
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my parents have an older son; the recipient is his wife and I am his sibling",
+      "expected": "elder_brother_wife",
+      "predicted": "elder_brother_wife",
+      "scores": [
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.9820367693901062,
+          "rank": 0
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.9780049920082092,
+          "rank": 1
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.9590012431144714,
+          "rank": 2
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.8354111313819885,
+          "rank": 3
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.7297672033309937,
+          "rank": 4
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.5657559037208557,
+          "rank": 5
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.5408647060394287,
+          "rank": 6
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.5127691030502319,
+          "rank": 7
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.49384719133377075,
+          "rank": 8
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.48518064618110657,
+          "rank": 9
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.341243714094162,
+          "rank": 10
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.3412171006202698,
+          "rank": 11
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.3147581219673157,
+          "rank": 12
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.3018985986709595,
+          "rank": 13
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.21629559993743896,
+          "rank": 14
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.15636438131332397,
+          "rank": 15
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.11320537328720093,
+          "rank": 16
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.06950503587722778,
+          "rank": 17
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.05393768474459648,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.044531628489494324,
+          "rank": 19
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.041150711476802826,
+          "rank": 20
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.024445392191410065,
+          "rank": 21
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.020484481006860733,
+          "rank": 22
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.020023291930556297,
+          "rank": 23
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.004389678593724966,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.381,
+      "usage": {
+        "input_tokens": 2350,
+        "input_tokens_details": {
+          "content_tokens": 525
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "I am a husband; the recipient grew up as my wife's brother",
+      "expected": "wife_brother",
+      "predicted": "wife_brother",
+      "scores": [
+        {
+          "item_id": "wife_brother",
+          "score": 0.9961463809013367,
+          "rank": 0
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.9550874829292297,
+          "rank": 1
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.9433942437171936,
+          "rank": 2
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.9147467613220215,
+          "rank": 3
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.8610557913780212,
+          "rank": 4
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.7054508328437805,
+          "rank": 5
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.3818429112434387,
+          "rank": 6
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.28072306513786316,
+          "rank": 7
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.24785922467708588,
+          "rank": 8
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.16417695581912994,
+          "rank": 9
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.12637323141098022,
+          "rank": 10
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.12456314265727997,
+          "rank": 11
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.12248598784208298,
+          "rank": 12
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.11773034185171127,
+          "rank": 13
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.09346582740545273,
+          "rank": 14
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.05675031244754791,
+          "rank": 15
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.04510466381907463,
+          "rank": 16
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.037480928003787994,
+          "rank": 17
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.02045828104019165,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.01041760016232729,
+          "rank": 19
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.00668076379224658,
+          "rank": 20
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.005817107390612364,
+          "rank": 21
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.005500514060258865,
+          "rank": 22
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.005141367204487324,
+          "rank": 23
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.0016799242002889514,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.433,
+      "usage": {
+        "input_tokens": 2275,
+        "input_tokens_details": {
+          "content_tokens": 450
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my sister is older than I am; the recipient is the man she married",
+      "expected": "sister_husband",
+      "predicted": "sister_husband",
+      "scores": [
+        {
+          "item_id": "sister_husband",
+          "score": 0.9768652319908142,
+          "rank": 0
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.9200025796890259,
+          "rank": 1
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.7473199963569641,
+          "rank": 2
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.5077880024909973,
+          "rank": 3
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.141344353556633,
+          "rank": 4
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.07556905597448349,
+          "rank": 5
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.02561379410326481,
+          "rank": 6
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.02454136684536934,
+          "rank": 7
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.018695518374443054,
+          "rank": 8
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.017560767009854317,
+          "rank": 9
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.01193435862660408,
+          "rank": 10
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.011320251040160656,
+          "rank": 11
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.008199427276849747,
+          "rank": 12
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.005526277702301741,
+          "rank": 13
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.005172626115381718,
+          "rank": 14
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.004445813130587339,
+          "rank": 15
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.002853985410183668,
+          "rank": 16
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.002849022625014186,
+          "rank": 17
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.001059832749888301,
+          "rank": 18
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.0006747842999175191,
+          "rank": 19
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.0005755584570579231,
+          "rank": 20
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.0005140253924764693,
+          "rank": 21
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0003676482883747667,
+          "rank": 22
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.0001705541944829747,
+          "rank": 23
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.00011047054431401193,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.281,
+      "usage": {
+        "input_tokens": 2300,
+        "input_tokens_details": {
+          "content_tokens": 475
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my sister is younger than I am; the recipient is the man she married",
+      "expected": "younger_sister_husband",
+      "predicted": "younger_sister_husband",
+      "scores": [
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.9601578116416931,
+          "rank": 0
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.9589735865592957,
+          "rank": 1
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.8079798221588135,
+          "rank": 2
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.6689262986183167,
+          "rank": 3
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.21897000074386597,
+          "rank": 4
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.20470698177814484,
+          "rank": 5
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.029256463050842285,
+          "rank": 6
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.027836602181196213,
+          "rank": 7
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.025532282888889313,
+          "rank": 8
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.01965414173901081,
+          "rank": 9
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.01884773001074791,
+          "rank": 10
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.017430588603019714,
+          "rank": 11
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.014785991050302982,
+          "rank": 12
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.008899732492864132,
+          "rank": 13
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.0059302980080246925,
+          "rank": 14
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.005497629288583994,
+          "rank": 15
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.004190716426819563,
+          "rank": 16
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.003055885899811983,
+          "rank": 17
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.0019705190788954496,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.0011786069953814149,
+          "rank": 19
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.0008319067419506609,
+          "rank": 20
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.0008047537412494421,
+          "rank": 21
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0005344055243767798,
+          "rank": 22
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.0002528415934648365,
+          "rank": 23
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.00013245509762782604,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.317,
+      "usage": {
+        "input_tokens": 2300,
+        "input_tokens_details": {
+          "content_tokens": 475
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "I am a wife; the recipient grew up as my husband's sister",
+      "expected": "husband_sister",
+      "predicted": "husband_sister",
+      "scores": [
+        {
+          "item_id": "husband_sister",
+          "score": 0.9956809282302856,
+          "rank": 0
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.9924221634864807,
+          "rank": 1
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.9698311686515808,
+          "rank": 2
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.9543402194976807,
+          "rank": 3
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.8750982880592346,
+          "rank": 4
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.8017591834068298,
+          "rank": 5
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.720138669013977,
+          "rank": 6
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.2763541638851166,
+          "rank": 7
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.15523523092269897,
+          "rank": 8
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.1361921727657318,
+          "rank": 9
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.11621151864528656,
+          "rank": 10
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.0570019893348217,
+          "rank": 11
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.049349330365657806,
+          "rank": 12
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.048510920256376266,
+          "rank": 13
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.021334156394004822,
+          "rank": 14
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.01864338107407093,
+          "rank": 15
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.002382540376856923,
+          "rank": 16
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.001927780918776989,
+          "rank": 17
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.0016091222641989589,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.0009760346147231758,
+          "rank": 19
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.000835637969430536,
+          "rank": 20
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.0005152278463356197,
+          "rank": 21
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.0004620503168553114,
+          "rank": 22
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.00036950770299881697,
+          "rank": 23
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0003226580156479031,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.329,
+      "usage": {
+        "input_tokens": 2275,
+        "input_tokens_details": {
+          "content_tokens": 450
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "I am a wife; my husband has a sister and the recipient is her husband",
+      "expected": "husband_sister_husband",
+      "predicted": "husband_sister_husband",
+      "scores": [
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.9974707961082458,
+          "rank": 0
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.995079517364502,
+          "rank": 1
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.9917739033699036,
+          "rank": 2
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.9881449937820435,
+          "rank": 3
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.9871727228164673,
+          "rank": 4
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.982213020324707,
+          "rank": 5
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.4524598717689514,
+          "rank": 6
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.3250136375427246,
+          "rank": 7
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.2764565944671631,
+          "rank": 8
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.2000415027141571,
+          "rank": 9
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.13263441622257233,
+          "rank": 10
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.07408521324396133,
+          "rank": 11
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.07000449299812317,
+          "rank": 12
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.06323616951704025,
+          "rank": 13
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.05260055884718895,
+          "rank": 14
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.04753823205828667,
+          "rank": 15
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.01215402688831091,
+          "rank": 16
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.0049827988259494305,
+          "rank": 17
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.0024292038287967443,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.002378749893978238,
+          "rank": 19
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.0022998275235295296,
+          "rank": 20
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.0016422511544078588,
+          "rank": 21
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.0013351788511499763,
+          "rank": 22
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.001091675483621657,
+          "rank": 23
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0005279047763906419,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.321,
+      "usage": {
+        "input_tokens": 2325,
+        "input_tokens_details": {
+          "content_tokens": 500
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my sibling is my brother; the recipient is his son",
+      "expected": "brother_son",
+      "predicted": "brother_son",
+      "scores": [
+        {
+          "item_id": "brother_son",
+          "score": 0.9909988641738892,
+          "rank": 0
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.9518193006515503,
+          "rank": 1
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.1318146139383316,
+          "rank": 2
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.07577604800462723,
+          "rank": 3
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.06203466281294823,
+          "rank": 4
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.03750449791550636,
+          "rank": 5
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.03209413215517998,
+          "rank": 6
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.028835579752922058,
+          "rank": 7
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.022465137764811516,
+          "rank": 8
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.02165932208299637,
+          "rank": 9
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.016227299347519875,
+          "rank": 10
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.013981510885059834,
+          "rank": 11
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.008983415551483631,
+          "rank": 12
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.007313089910894632,
+          "rank": 13
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0066999816335737705,
+          "rank": 14
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.005791467148810625,
+          "rank": 15
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.005261391866952181,
+          "rank": 16
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.00406484492123127,
+          "rank": 17
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.0034489682875573635,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.0034021646715700626,
+          "rank": 19
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.0031986176036298275,
+          "rank": 20
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.002741079078987241,
+          "rank": 21
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.0016515625175088644,
+          "rank": 22
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.0012385874288156629,
+          "rank": 23
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.0006336195510812104,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.341,
+      "usage": {
+        "input_tokens": 2200,
+        "input_tokens_details": {
+          "content_tokens": 375
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my sibling is my brother; the recipient is his daughter",
+      "expected": "brother_daughter",
+      "predicted": "brother_daughter",
+      "scores": [
+        {
+          "item_id": "brother_daughter",
+          "score": 0.9954273104667664,
+          "rank": 0
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.9023173451423645,
+          "rank": 1
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.37004354596138,
+          "rank": 2
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.3063622713088989,
+          "rank": 3
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.20617201924324036,
+          "rank": 4
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.17542658746242523,
+          "rank": 5
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.16470372676849365,
+          "rank": 6
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.16330374777317047,
+          "rank": 7
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.12763138115406036,
+          "rank": 8
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.07520783692598343,
+          "rank": 9
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.017406560480594635,
+          "rank": 10
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.01487636473029852,
+          "rank": 11
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.013615623116493225,
+          "rank": 12
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.013414072804152966,
+          "rank": 13
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.011615434661507607,
+          "rank": 14
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.011313634924590588,
+          "rank": 15
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.010272388346493244,
+          "rank": 16
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.008191248401999474,
+          "rank": 17
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.007712903898209333,
+          "rank": 18
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.006720805075019598,
+          "rank": 19
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.004457498900592327,
+          "rank": 20
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.0038001115899533033,
+          "rank": 21
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.0036450414918363094,
+          "rank": 22
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.002703768201172352,
+          "rank": 23
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.002245173789560795,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.363,
+      "usage": {
+        "input_tokens": 2200,
+        "input_tokens_details": {
+          "content_tokens": 375
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my sibling is my sister; the recipient is her son",
+      "expected": "sister_son",
+      "predicted": "sister_son",
+      "scores": [
+        {
+          "item_id": "sister_son",
+          "score": 0.9965645670890808,
+          "rank": 0
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.9525012373924255,
+          "rank": 1
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.9118191003799438,
+          "rank": 2
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.7316780090332031,
+          "rank": 3
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.6941990256309509,
+          "rank": 4
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.6018388271331787,
+          "rank": 5
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.5784116387367249,
+          "rank": 6
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.2976808249950409,
+          "rank": 7
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.2968321740627289,
+          "rank": 8
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.06839395314455032,
+          "rank": 9
+        },
+        {
+          "item_id": "sister_daughter",
+          "score": 0.03783447667956352,
+          "rank": 10
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.02499985694885254,
+          "rank": 11
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.024632945656776428,
+          "rank": 12
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.017929567024111748,
+          "rank": 13
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.015126846730709076,
+          "rank": 14
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.011369104497134686,
+          "rank": 15
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.011268103495240211,
+          "rank": 16
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.007687953766435385,
+          "rank": 17
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.005817345809191465,
+          "rank": 18
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.005369178485125303,
+          "rank": 19
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.00421706261113286,
+          "rank": 20
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.004178937524557114,
+          "rank": 21
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.003866995917633176,
+          "rank": 22
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.002105085412040353,
+          "rank": 23
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.0007956489571370184,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.464,
+      "usage": {
+        "input_tokens": 2200,
+        "input_tokens_details": {
+          "content_tokens": 375
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    },
+    {
+      "query": "my sibling is my sister; the recipient is her daughter",
+      "expected": "sister_daughter",
+      "predicted": "sister_daughter",
+      "scores": [
+        {
+          "item_id": "sister_daughter",
+          "score": 0.9947422742843628,
+          "rank": 0
+        },
+        {
+          "item_id": "brother_daughter",
+          "score": 0.8596846461296082,
+          "rank": 1
+        },
+        {
+          "item_id": "sister_son",
+          "score": 0.06502868235111237,
+          "rank": 2
+        },
+        {
+          "item_id": "younger_sister_husband",
+          "score": 0.048047009855508804,
+          "rank": 3
+        },
+        {
+          "item_id": "sister_husband",
+          "score": 0.02246348187327385,
+          "rank": 4
+        },
+        {
+          "item_id": "mother_sister",
+          "score": 0.0218547061085701,
+          "rank": 5
+        },
+        {
+          "item_id": "brother_son",
+          "score": 0.01997784711420536,
+          "rank": 6
+        },
+        {
+          "item_id": "elder_brother_wife",
+          "score": 0.015687359496951103,
+          "rank": 7
+        },
+        {
+          "item_id": "father_sister",
+          "score": 0.013482502661645412,
+          "rank": 8
+        },
+        {
+          "item_id": "husband_sister",
+          "score": 0.009264382533729076,
+          "rank": 9
+        },
+        {
+          "item_id": "mother_sister_husband",
+          "score": 0.0078262435272336,
+          "rank": 10
+        },
+        {
+          "item_id": "father_sister_husband",
+          "score": 0.004995891358703375,
+          "rank": 11
+        },
+        {
+          "item_id": "husband_sister_husband",
+          "score": 0.004518506117165089,
+          "rank": 12
+        },
+        {
+          "item_id": "father_younger_brother_wife",
+          "score": 0.003776323748752475,
+          "rank": 13
+        },
+        {
+          "item_id": "mother_brother_wife",
+          "score": 0.0035739727318286896,
+          "rank": 14
+        },
+        {
+          "item_id": "father_elder_brother_wife",
+          "score": 0.003125345567241311,
+          "rank": 15
+        },
+        {
+          "item_id": "wife_brother",
+          "score": 0.00309348595328629,
+          "rank": 16
+        },
+        {
+          "item_id": "elder_brother",
+          "score": 0.0027666972018778324,
+          "rank": 17
+        },
+        {
+          "item_id": "mother_brother",
+          "score": 0.002148882020264864,
+          "rank": 18
+        },
+        {
+          "item_id": "mother_mother",
+          "score": 0.001987663097679615,
+          "rank": 19
+        },
+        {
+          "item_id": "father_younger_brother",
+          "score": 0.0013320869766175747,
+          "rank": 20
+        },
+        {
+          "item_id": "mother_father",
+          "score": 0.0013120353687554598,
+          "rank": 21
+        },
+        {
+          "item_id": "father_mother",
+          "score": 0.001311787753365934,
+          "rank": 22
+        },
+        {
+          "item_id": "father_elder_brother",
+          "score": 0.0012373088393360376,
+          "rank": 23
+        },
+        {
+          "item_id": "father_father",
+          "score": 0.0007944289827719331,
+          "rank": 24
+        }
+      ],
+      "seconds": 0.602,
+      "usage": {
+        "input_tokens": 2200,
+        "input_tokens_details": {
+          "content_tokens": 375
+        },
+        "credits_charged": 1,
+        "credits_charged_decimal": "1.000000",
+        "rate_book_version": "2026-11-05-production-bootstrap-v53"
+      },
+      "request": null
+    }
+  ]
+}
