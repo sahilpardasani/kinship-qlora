@@ -25,7 +25,7 @@ Use the saved V2 salutation to try a live Darkbloom card from any laptop with Py
 python3 kinship-v2/darkbloom_card.py --saved-example --occasion "a wedding invitation" --detail "Dinner is at seven on Sunday."
 ```
 
-Enter a Darkbloom API key at the hidden Terminal prompt or set `DARKBLOOM_API_KEY`. The family relationship and local salutation stay on the laptop. Darkbloom receives the occasion, tone and event detail and writes the Hindi body. The command prints the returned model and request ID when available. To see available model IDs, pass `--list-models`. Use `--model ID` to select an online chat model.
+Enter a Darkbloom API key at the hidden Terminal prompt or set `DARKBLOOM_API_KEY`. The family relationship and local salutation stay on the laptop. Darkbloom receives the occasion, tone and event detail and writes the Hindi body. The command prints the returned model and request ID when available. By default the command reads the live model catalog and tries one more listed chat model if the first returns HTTP 404 or 503. To see available model IDs, pass `--list-models`. Use `--model ID` to select an online chat model.
 
 For a fresh local salutation, use the Apple Silicon environment described below and run:
 
