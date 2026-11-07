@@ -85,8 +85,11 @@ def main():
     parser.add_argument("--detail", default="Dinner is at seven on Sunday.")
     parser.add_argument("--tone", default="warm and respectful")
     parser.add_argument("--model", default=os.getenv("DARKBLOOM_MODEL"), help="Explicit model ID; otherwise discover online chat models")
+    parser.add_argument("--max-tokens", type=int, default=128, help="Maximum generated tokens per card (default: 128)")
     parser.add_argument("--list-models", action="store_true")
     args = parser.parse_args()
+    if args.max_tokens < 1:
+        parser.error("--max-tokens must be a positive integer")
     if args.saved_example and args.relationship:
         parser.error("--saved-example has a fixed relationship; omit it to run a custom relationship")
     key = os.environ.get("DARKBLOOM_API_KEY")
@@ -105,7 +108,7 @@ def main():
         candidates = [args.model] if args.model else chat_candidates(request_json(key, "/models")["data"])
         if not candidates:
             raise ValueError("No recognized online chat models. Use --list-models, then --model with an exact chat model ID.")
-        payload = {"max_tokens": 768, "messages": [
+        payload = {"max_tokens": args.max_tokens, "messages": [
             {"role":"system","content":"Write only the body of a Hindi family greeting card in natural Devanagari, in two short sentences. Use respectful आप. The sender will add the salutation. Omit greetings to named people, kinship titles, signatures, explanations and translations. Preserve the event details exactly in meaning."},
             {"role":"user","content":json.dumps({"occasion":args.occasion, "detail":args.detail,
                                                  "tone":args.tone}, ensure_ascii=False)}]}
@@ -123,7 +126,7 @@ def main():
         choice = result["choices"][0]
         content = choice["message"]["content"]
         if choice.get("finish_reason") == "length" or not isinstance(content, str) or not content.strip():
-            raise ValueError("Darkbloom returned an incomplete card. Try a different chat model using --model.")
+            raise ValueError("Darkbloom returned an incomplete card. Try a shorter detail or increase --max-tokens if your balance allows.")
         body = content.rsplit("</think>", 1)[-1].strip()
         if "<think>" in body or not re.search(r"[अ-ह]", body):
             raise ValueError("Darkbloom did not return a Hindi card body.")
