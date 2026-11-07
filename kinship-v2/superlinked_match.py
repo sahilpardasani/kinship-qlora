@@ -74,14 +74,23 @@ def main():
     key = (os.environ.get("SIE_API_KEY") or getpass.getpass("Superlinked API key (hidden): ")).strip()
     if not key:
         parser.error("Enter a Superlinked API key")
+    if not key.isascii() or not key.isprintable() or " " in key or "..." in key:
+        parser.error("Copy the full Superlinked key. The displayed example with an ellipsis is abbreviated.")
+    if args.card:
+        from check import load_responder
+        try:
+            generate = load_responder(str(ROOT.parent / "weights/v2"))
+        except ModuleNotFoundError as error:
+            if error.name != "mlx_lm":
+                raise
+            parser.error("This Python is missing mlx_lm. Run this command with the Python "
+                         "from the environment used for training (.venv315/bin/python or .venv/bin/python).")
     if args.query is not None:
         ranked = score(args.query, labels, key)["scores"]
         for entry in ranked[:3]:
             print(f"{entry['score']:.4f}  {labels[entry['item_id']]}")
         if args.card:
-            from check import load_responder
             relation = labels[ranked[0]["item_id"]]
-            generate = load_responder(str(ROOT.parent / "weights/v2"))
             print(generate(f"Write a Hindi birthday greeting to my {relation}. Use the family term."))
         return
 
