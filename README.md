@@ -19,6 +19,10 @@ V1 addressed a maternal uncle's wife. V2 produced the expected term नंदो
 
 ## Match an English family description with Superlinked
 
+Superlinked’s `Qwen/Qwen3-Reranker-0.6B` ranked the correct relative first for **20 of 25 English descriptions (80%)**, including **10 of 11 relationships by marriage**. Its one miss in that group was “father’s elder brother’s wife,” which it shortened to “elder brother’s wife.” It also missed three of the four grandparents and “elder brother.”
+
+In a live birthday-card demo, “My dad has a brother younger than him. I'm writing to that brother's wife.” ranked “father’s younger brother’s wife” first out of 25. Our local fine-tuned Qwen generated **“चाचीजी, जन्मदिन की बहुत बधाई!”** The 25-case run measures English relationship selection. This individual demo also checks the Hindi address.
+
 Superlinked ranks 25 English relationship labels. On the training Mac, `--card` passes its first choice to our local V2 adapter to write a Hindi birthday greeting. Run from the repository root and enter the Superlinked key at the hidden prompt.
 
 ```bash
