@@ -1,0 +1,76 @@
+language,relationship,expected benchmark key,paper correct,attempts,accuracy percent,v1 Hindi training
+hindi,husband's sister's husband,nandoi,0,30,0.0,missing
+hindi,younger sister's husband,bahanoi,0,30,0.0,missing
+hindi,mother's sister's husband,mausa,4,30,13.33,missing
+hindi,father's sister's husband,phupha,6,30,20.0,missing
+hindi,sister's son,bhanja,7,30,23.33,missing
+hindi,wife's brother,sala,7,30,23.33,missing
+hindi,father's elder brother,tau (tauji),8,30,26.67,yes
+hindi,father's elder brother's wife,tai (taiji),8,30,26.67,missing
+hindi,sister's daughter,bhanji,8,30,26.67,missing
+hindi,husband's sister,nanad,11,30,36.67,missing
+hindi,elder sister's husband,jija (jijaji),11,30,36.67,missing
+hindi,mother's brother's wife,mami (mamiji),13,30,43.33,yes
+hindi,mother's mother,nani (naniji),13,30,43.33,yes
+hindi,mother's sister,mausi (mausiji),13,30,43.33,yes
+hindi,mother's father,nanaji,16,30,53.33,yes
+hindi,elder brother's wife,bhabhi,19,30,63.33,missing
+hindi,father's sister,bua (buaji),21,30,70.0,yes
+hindi,father's younger brother's wife,chachi (chachiji),21,30,70.0,missing
+hindi,mother's brother,mama (mamaji),21,30,70.0,yes
+hindi,brother's daughter,bhatiji,22,30,73.33,missing
+hindi,brother's son,bhatija,22,30,73.33,missing
+hindi,father's younger brother,chacha (chachaji),27,30,90.0,yes
+hindi,father's mother,dadi (dadiji),28,30,93.33,yes
+hindi,father's father,dadaji,29,30,96.67,yes
+hindi,elder brother,bhaiya / bhai,30,30,100.0,missing
+korean,father's younger brother's wife,jageun-eomeoni,1,30,3.33,
+korean,husband's sister's husband,seobang-nim,2,30,6.67,
+korean,younger sister's husband,maeje (매제),2,30,6.67,
+korean,elder sister's husband,maehyeong (매형),3,30,10.0,
+korean,wife's brother,cheonam (처남),5,30,16.67,
+korean,husband's sister,sinui (시누이),6,30,20.0,
+korean,mother's brother's wife,oe-sungmo,6,30,20.0,
+korean,father's sister,gomo,7,30,23.33,
+korean,father's elder brother,keun-abeoji,10,30,33.33,
+korean,father's sister's husband,gomobu,10,30,33.33,
+korean,mother's mother,oe-halmeoni,10,30,33.33,
+korean,mother's brother,oe-samchon,11,30,36.67,
+korean,mother's father,oe-harabeoji,11,30,36.67,
+korean,brother's daughter,jokattal,12,30,40.0,
+korean,father's younger brother,samchon,12,30,40.0,
+korean,mother's sister's husband,imobu,12,30,40.0,
+korean,brother's son,joka,13,30,43.33,
+korean,sister's son,joka / saengjil,13,30,43.33,
+korean,father's elder brother's wife,keun-eomeoni,14,30,46.67,
+korean,sister's daughter,jokattal / saengjilnyeo,16,30,53.33,
+korean,elder brother's wife,hyeongsu (male sp.) / olke (female sp.),33,60,55.0,
+korean,mother's sister,imo,20,30,66.67,
+korean,father's father,harabeoji,22,30,73.33,
+korean,father's mother,halmeoni,22,30,73.33,
+korean,elder brother,hyung (male sp.) / oppa (female sp.),48,60,80.0,
+tamil,husband's sister,nathanar,0,30,0.0,
+tamil,elder sister's husband,machan / attan,0,30,0.0,
+tamil,brother's son,marumagan,2,30,6.67,
+tamil,husband's sister's husband,machan / attan,2,30,6.67,
+tamil,sister's daughter,marumagal,3,30,10.0,
+tamil,sister's son,marumagan,3,30,10.0,
+tamil,brother's daughter,marumagal,4,30,13.33,
+tamil,younger sister's husband,machan,4,30,13.33,
+tamil,wife's brother,machan / maamaan,6,30,20.0,
+tamil,mother's sister,chithi / periyamma,11,30,36.67,
+tamil,father's younger brother's wife,chithi,12,30,40.0,
+tamil,father's elder brother,periyappa,16,30,53.33,
+tamil,father's sister,athai,16,30,53.33,
+tamil,father's younger brother,chithappa,16,30,53.33,
+tamil,mother's brother's wife,mami,16,30,53.33,
+tamil,elder brother's wife,anni,18,30,60.0,
+tamil,father's elder brother's wife,periyamma,18,30,60.0,
+tamil,father's sister's husband,mama / attan,19,30,63.33,
+tamil,mother's sister's husband,mama / chithappa,19,30,63.33,
+tamil,mother's mother,paati / ammayee,20,30,66.67,
+tamil,mother's brother,mama / maaman,22,30,73.33,
+tamil,mother's father,thatha,25,30,83.33,
+tamil,elder brother,anna,26,30,86.67,
+tamil,father's mother,paati,27,30,90.0,
+tamil,father's father,thatha,29,30,96.67,

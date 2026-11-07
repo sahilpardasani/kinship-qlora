@@ -1,0 +1,456 @@
+{"prompt": "Give the Hindi kinship label for the woman married to Dad's younger brother in Devanagari. Answer with only the label.", "completion": "चाची"}
+{"prompt": "I need a Hindi wedding invitation for my brother's girl. Open with their family title.", "completion": "भतीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Write a Hindi birthday greeting for my elder sister's husband. Address them with the family term.", "completion": "जीजाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Give the Hindi kinship label for my father's elder brother in Devanagari. Answer with only the label.", "completion": "ताऊ"}
+{"prompt": "Write a Hindi greeting for the man married to my husband's sister to celebrate the new year. Use the family title.", "completion": "नंदोईजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Invite my wife's brother to lunch in Hindi, using the appropriate family term.", "completion": "साले साहब, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Invite my father's sister to my wedding in Hindi. Open with the family title.", "completion": "बुआजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Greet my sister's girl for Diwali in Hindi using the relationship word.", "completion": "भांजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for Dad's mom. Address them with the family term.", "completion": "दादीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Invite the husband of my younger sister to lunch in Hindi, using the appropriate family term.", "completion": "बहनोईजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Invite my maternal grandfather to my wedding in Hindi. Open with the family title.", "completion": "नानाजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Greet the husband of my older sister for Diwali in Hindi using the relationship word.", "completion": "जीजाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Give the Hindi kinship label for Mom's brother in Devanagari. Answer with only the label.", "completion": "मामा"}
+{"prompt": "Write a Hindi note asking my father's elder brother to come to my wedding. Address them by relationship.", "completion": "ताऊजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Give me a one-line birthday greeting for my father's sister in Devanagari. Address them directly.", "completion": "बुआजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Write a Hindi birthday greeting for Dad's sister. Address them with the family term.", "completion": "बुआजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a Hindi note asking my paternal grandfather to come to my wedding. Address them by relationship.", "completion": "दादाजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Invite my mother's brother to lunch in Hindi, using the appropriate family term.", "completion": "मामाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Greet my brother's boy for Diwali in Hindi using the relationship word.", "completion": "भतीजे, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi note asking my mom's brother to come to my wedding. Address them by relationship.", "completion": "मामाजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "I need a birthday card for my maternal grandfather. Write it in Hindi and address the person by relationship.", "completion": "प्यारे नानाजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Send a short thank-you to my mother's sister's husband in Hindi. Use the specific family term.", "completion": "मौसाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Send the wife of Dad's older brother a brief Hindi note of congratulations with a family salutation.", "completion": "ताईजी, इस सफलता पर बधाई!"}
+{"prompt": "Invite my paternal grandfather to my wedding in Hindi. Open with the family title.", "completion": "दादाजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Write a Hindi note asking my maternal grandmother to come to my wedding. Address them by relationship.", "completion": "नानीजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Greet the man married to Mom's sister for Diwali in Hindi using the relationship word.", "completion": "मौसाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Invite my paternal grandmother to my wedding in Hindi. Open with the family title.", "completion": "दादीजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Invite Dad's little brother to lunch in Hindi, using the appropriate family term.", "completion": "चाचाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Greet my father's father for Diwali in Hindi using the relationship word.", "completion": "दादाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Invite my husband's sister to lunch in Hindi, using the appropriate family term.", "completion": "ननदजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Invite the woman married to Mom's brother to lunch in Hindi, using the appropriate family term.", "completion": "मामीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Greet my elder brother's wife for Diwali in Hindi using the relationship word.", "completion": "भाभीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Invite my elder brother to lunch in Hindi, using the appropriate family term.", "completion": "भैया, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Invite the brother of the woman I married to lunch in Hindi, using the appropriate family term.", "completion": "साले साहब, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "I need a birthday card for my mom's father. Write it in Hindi and address the person by relationship.", "completion": "प्यारे नानाजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my maternal grandfather with the right kinship term.", "completion": "नानाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Send a short thank-you to my father's sister in Hindi. Use the specific family term.", "completion": "बुआजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Send a short thank-you to Dad's big brother in Hindi. Use the specific family term.", "completion": "ताऊजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a Hindi wedding invitation for my father's sister's husband. Open with their family title.", "completion": "फूफाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Greet my father's sister for Diwali in Hindi using the relationship word.", "completion": "बुआजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Send a short thank-you to my elder sister's husband in Hindi. Use the specific family term.", "completion": "जीजाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a Hindi wedding invitation for my father's sister. Open with their family title.", "completion": "बुआजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "I need a Hindi wedding invitation for the husband of my older sister. Open with their family title.", "completion": "जीजाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Give the Hindi kinship label for my elder sister's husband in Devanagari. Answer with only the label.", "completion": "जीजा"}
+{"prompt": "Write a Hindi birthday greeting for my younger sister's husband. Address them with the family term.", "completion": "बहनोईजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "In Hindi, wish my paternal grandfather a happy birthday. Use the family term.", "completion": "दादाजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Give the Hindi kinship label for my father's mother in Devanagari. Answer with only the label.", "completion": "दादी"}
+{"prompt": "Write a Hindi note asking my maternal grandfather to come to my wedding. Address them by relationship.", "completion": "नानाजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Invite Dad's big brother to lunch in Hindi, using the appropriate family term.", "completion": "ताऊजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Give me a one-line birthday greeting for my maternal grandmother in Devanagari. Address them directly.", "completion": "नानीजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "In Hindi, wish my mother's brother a happy birthday. Use the family term.", "completion": "मामाजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Greet my wife's brother for Diwali in Hindi using the relationship word.", "completion": "साले साहब, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Invite the wife of Dad's older brother to lunch in Hindi, using the appropriate family term.", "completion": "ताईजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Invite my husband's sister's husband to lunch in Hindi, using the appropriate family term.", "completion": "नंदोईजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a Hindi birthday greeting for my sister's girl. Address them with the family term.", "completion": "भांजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a Hindi birthday greeting for my brother's boy. Address them with the family term.", "completion": "भतीजे, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a Hindi birthday greeting for my mother's mother. Address them with the family term.", "completion": "नानीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "I need a Hindi wedding invitation for my father's elder brother's wife. Open with their family title.", "completion": "ताईजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "I need a Hindi wedding invitation for my husband's sister's husband. Open with their family title.", "completion": "नंदोईजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Give the Hindi kinship label for my father's father in Devanagari. Answer with only the label.", "completion": "दादा"}
+{"prompt": "Write a Hindi birthday greeting for my sister's boy. Address them with the family term.", "completion": "भांजे, जन्मदिन की बहुत बधाई!"}
+{"prompt": "In Hindi, wish my mother's sister a happy birthday. Use the family term.", "completion": "मौसीजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Give me a one-line birthday greeting for my mother's sister in Devanagari. Address them directly.", "completion": "मौसीजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Write a Hindi greeting for the man married to Dad's sister to celebrate the new year. Use the family title.", "completion": "फूफाजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Greet Dad's big brother for Diwali in Hindi using the relationship word.", "completion": "ताऊजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Invite my mom's sister to my wedding in Hindi. Open with the family title.", "completion": "मौसीजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "I need a Hindi wedding invitation for my brother's son. Open with their family title.", "completion": "भतीजे, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "I need a Hindi wedding invitation for Dad's sister. Open with their family title.", "completion": "बुआजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Invite my father's sister to lunch in Hindi, using the appropriate family term.", "completion": "बुआजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a Hindi greeting for my younger sister's husband to celebrate the new year. Use the family title.", "completion": "बहनोईजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Send my wife's brother a brief Hindi note of congratulations with a family salutation.", "completion": "साले साहब, इस सफलता पर बधाई!"}
+{"prompt": "Invite my sister's boy to lunch in Hindi, using the appropriate family term.", "completion": "भांजे, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Greet my mother's brother for Diwali in Hindi using the relationship word.", "completion": "मामाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "I need a Hindi wedding invitation for the woman married to my older brother. Open with their family title.", "completion": "भाभीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Give the Hindi kinship label for the man married to Mom's sister in Devanagari. Answer with only the label.", "completion": "मौसा"}
+{"prompt": "Give the Hindi kinship label for Dad's big brother in Devanagari. Answer with only the label.", "completion": "ताऊ"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my mother's brother with the right kinship term.", "completion": "मामाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Give me a one-line birthday greeting for my father's elder brother in Devanagari. Address them directly.", "completion": "ताऊजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Give the Hindi kinship label for the husband of my older sister in Devanagari. Answer with only the label.", "completion": "जीजा"}
+{"prompt": "Write a Hindi birthday greeting for the woman married to Dad's younger brother. Address them with the family term.", "completion": "चाचीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Greet my younger sister's husband for Diwali in Hindi using the relationship word.", "completion": "बहनोईजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Invite Dad's dad to lunch in Hindi, using the appropriate family term.", "completion": "दादाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "I need a Hindi wedding invitation for the wife of Dad's older brother. Open with their family title.", "completion": "ताईजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Write a Hindi birthday greeting for my mother's sister. Address them with the family term.", "completion": "मौसीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "I need a Hindi wedding invitation for my sister's daughter. Open with their family title.", "completion": "भांजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Write a Hindi birthday greeting for my father's elder brother. Address them with the family term.", "completion": "ताऊजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Greet Mom's brother for Diwali in Hindi using the relationship word.", "completion": "मामाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Greet Dad's dad for Diwali in Hindi using the relationship word.", "completion": "दादाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for my father's sister's husband. Address them with the family term.", "completion": "फूफाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a Hindi note asking my dad's sister to come to my wedding. Address them by relationship.", "completion": "बुआजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Write a Hindi greeting for my father's elder brother to celebrate the new year. Use the family title.", "completion": "ताऊजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Send a short thank-you to Mom's mom in Hindi. Use the specific family term.", "completion": "नानीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a Hindi wedding invitation for my brother's boy. Open with their family title.", "completion": "भतीजे, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Give the Hindi kinship label for the man married to Dad's sister in Devanagari. Answer with only the label.", "completion": "फूफा"}
+{"prompt": "Send my father's elder brother a brief Hindi note of congratulations with a family salutation.", "completion": "ताऊजी, इस सफलता पर बधाई!"}
+{"prompt": "Send the man married to my husband's sister a brief Hindi note of congratulations with a family salutation.", "completion": "नंदोईजी, इस सफलता पर बधाई!"}
+{"prompt": "Write a Hindi birthday greeting for the man married to my husband's sister. Address them with the family term.", "completion": "नंदोईजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Invite my dad's mother to my wedding in Hindi. Open with the family title.", "completion": "दादीजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Send my younger sister's husband a brief Hindi note of congratulations with a family salutation.", "completion": "बहनोईजी, इस सफलता पर बधाई!"}
+{"prompt": "Invite the man married to Mom's sister to lunch in Hindi, using the appropriate family term.", "completion": "मौसाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "In Hindi, wish my mom's sister a happy birthday. Use the family term.", "completion": "मौसीजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for my mother's father. Address them with the family term.", "completion": "नानाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my mom's father with the right kinship term.", "completion": "नानाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Send a short thank-you to Dad's dad in Hindi. Use the specific family term.", "completion": "दादाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "In Hindi, wish my mom's brother a happy birthday. Use the family term.", "completion": "मामाजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Send my sister's son a brief Hindi note of congratulations with a family salutation.", "completion": "भांजे, इस सफलता पर बधाई!"}
+{"prompt": "Greet Dad's little brother for Diwali in Hindi using the relationship word.", "completion": "चाचाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Invite my elder sister's husband to lunch in Hindi, using the appropriate family term.", "completion": "जीजाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Invite my mother's father to lunch in Hindi, using the appropriate family term.", "completion": "नानाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Invite my maternal grandmother to my wedding in Hindi. Open with the family title.", "completion": "नानीजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Invite my dad's father to my wedding in Hindi. Open with the family title.", "completion": "दादाजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Write a Hindi birthday greeting for the woman married to Mom's brother. Address them with the family term.", "completion": "मामीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Greet the woman married to my older brother for Diwali in Hindi using the relationship word.", "completion": "भाभीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my dad's father with the right kinship term.", "completion": "दादाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Invite Mom's sister to lunch in Hindi, using the appropriate family term.", "completion": "मौसीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Greet the woman married to Dad's younger brother for Diwali in Hindi using the relationship word.", "completion": "चाचीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Give the Hindi kinship label for my mother's brother's wife in Devanagari. Answer with only the label.", "completion": "मामी"}
+{"prompt": "Invite my mom's father to my wedding in Hindi. Open with the family title.", "completion": "नानाजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Write a Hindi note asking the wife of my mother's brother to come to my wedding. Address them by relationship.", "completion": "मामीजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Give the Hindi kinship label for my brother's boy in Devanagari. Answer with only the label.", "completion": "भतीजा"}
+{"prompt": "Write a Hindi birthday greeting for the man married to Mom's sister. Address them with the family term.", "completion": "मौसाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my mom's mother with the right kinship term.", "completion": "नानीजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "In Hindi, wish my dad's sister a happy birthday. Use the family term.", "completion": "बुआजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Give me a one-line birthday greeting for my dad's sister in Devanagari. Address them directly.", "completion": "बुआजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "I need a birthday card for the wife of my mother's brother. Write it in Hindi and address the person by relationship.", "completion": "प्यारी मामीजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Write a Hindi greeting for the wife of Dad's older brother to celebrate the new year. Use the family title.", "completion": "ताईजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for my father's younger brother. Address them with the family term.", "completion": "चाचाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Greet my mother's sister's husband for Diwali in Hindi using the relationship word.", "completion": "मौसाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for Mom's dad. Address them with the family term.", "completion": "नानाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "I need a Hindi wedding invitation for my big brother. Open with their family title.", "completion": "भैया, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Invite my mother's brother's wife to lunch in Hindi, using the appropriate family term.", "completion": "मामीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Give the Hindi kinship label for my brother's girl in Devanagari. Answer with only the label.", "completion": "भतीजी"}
+{"prompt": "Greet my brother's son for Diwali in Hindi using the relationship word.", "completion": "भतीजे, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "I need a birthday card for my dad's older brother. Write it in Hindi and address the person by relationship.", "completion": "प्यारे ताऊजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Give the Hindi kinship label for my father's younger brother in Devanagari. Answer with only the label.", "completion": "चाचा"}
+{"prompt": "I need a Hindi wedding invitation for my elder brother. Open with their family title.", "completion": "भैया, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Give the Hindi kinship label for Dad's dad in Devanagari. Answer with only the label.", "completion": "दादा"}
+{"prompt": "Send a short thank-you to my mother's father in Hindi. Use the specific family term.", "completion": "नानाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Give the Hindi kinship label for Mom's mom in Devanagari. Answer with only the label.", "completion": "नानी"}
+{"prompt": "Write a Hindi birthday greeting for my elder brother. Address them with the family term.", "completion": "भैया, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Invite my father's sister's husband to lunch in Hindi, using the appropriate family term.", "completion": "फूफाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a Hindi birthday greeting for Dad's big brother. Address them with the family term.", "completion": "ताऊजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a Hindi birthday greeting for Mom's mom. Address them with the family term.", "completion": "नानीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a Hindi birthday greeting for my father's elder brother's wife. Address them with the family term.", "completion": "ताईजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Give the Hindi kinship label for my father's elder brother's wife in Devanagari. Answer with only the label.", "completion": "ताई"}
+{"prompt": "Give me a one-line birthday greeting for my dad's younger brother in Devanagari. Address them directly.", "completion": "चाचाजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "In Hindi, wish my father's sister a happy birthday. Use the family term.", "completion": "बुआजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Give me a one-line birthday greeting for my paternal grandmother in Devanagari. Address them directly.", "completion": "दादीजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Give the Hindi kinship label for my sister's son in Devanagari. Answer with only the label.", "completion": "भांजा"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my mom's brother's wife with the right kinship term.", "completion": "मामीजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Send a short thank-you to my father's elder brother's wife in Hindi. Use the specific family term.", "completion": "ताईजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a Hindi wedding invitation for the sister of the man I married. Open with their family title.", "completion": "ननदजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Send a short thank-you to Mom's sister in Hindi. Use the specific family term.", "completion": "मौसीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Send a short thank-you to my sister's son in Hindi. Use the specific family term.", "completion": "भांजे, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Invite the sister of the man I married to lunch in Hindi, using the appropriate family term.", "completion": "ननदजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my father's younger brother with the right kinship term.", "completion": "चाचाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Give me a one-line birthday greeting for my mother's brother in Devanagari. Address them directly.", "completion": "मामाजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Invite Dad's mom to lunch in Hindi, using the appropriate family term.", "completion": "दादीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Give me a one-line birthday greeting for my paternal grandfather in Devanagari. Address them directly.", "completion": "दादाजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Send a short thank-you to the woman married to Mom's brother in Hindi. Use the specific family term.", "completion": "मामीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Send a short thank-you to my father's sister's husband in Hindi. Use the specific family term.", "completion": "फूफाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Write a Hindi greeting for my mother's sister's husband to celebrate the new year. Use the family title.", "completion": "मौसाजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Invite my elder brother's wife to lunch in Hindi, using the appropriate family term.", "completion": "भाभीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a Hindi birthday greeting for my father's mother. Address them with the family term.", "completion": "दादीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Give the Hindi kinship label for the woman married to Mom's brother in Devanagari. Answer with only the label.", "completion": "मामी"}
+{"prompt": "Send a short thank-you to my mother's brother in Hindi. Use the specific family term.", "completion": "मामाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Give me a one-line birthday greeting for my dad's father in Devanagari. Address them directly.", "completion": "दादाजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Greet the woman married to Mom's brother for Diwali in Hindi using the relationship word.", "completion": "मामीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Give the Hindi kinship label for the sister of the man I married in Devanagari. Answer with only the label.", "completion": "ननद"}
+{"prompt": "Greet my brother's girl for Diwali in Hindi using the relationship word.", "completion": "भतीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "I need a Hindi wedding invitation for my mother's brother's wife. Open with their family title.", "completion": "मामीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Write a Hindi birthday greeting for the woman married to my older brother. Address them with the family term.", "completion": "भाभीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Send my sister's girl a brief Hindi note of congratulations with a family salutation.", "completion": "भांजी, इस सफलता पर बधाई!"}
+{"prompt": "Give the Hindi kinship label for my husband's sister's husband in Devanagari. Answer with only the label.", "completion": "नंदोई"}
+{"prompt": "Give the Hindi kinship label for my sister's girl in Devanagari. Answer with only the label.", "completion": "भांजी"}
+{"prompt": "Give me a one-line birthday greeting for my mom's brother in Devanagari. Address them directly.", "completion": "मामाजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "I need a birthday card for my mom's sister. Write it in Hindi and address the person by relationship.", "completion": "प्यारी मौसीजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Give the Hindi kinship label for Dad's sister in Devanagari. Answer with only the label.", "completion": "बुआ"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my dad's younger brother with the right kinship term.", "completion": "चाचाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "I need a Hindi wedding invitation for my mother's mother. Open with their family title.", "completion": "नानीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Send a short thank-you to the man married to my husband's sister in Hindi. Use the specific family term.", "completion": "नंदोईजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Send the man married to Dad's sister a brief Hindi note of congratulations with a family salutation.", "completion": "फूफाजी, इस सफलता पर बधाई!"}
+{"prompt": "Invite my father's father to lunch in Hindi, using the appropriate family term.", "completion": "दादाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Invite my sister's girl to lunch in Hindi, using the appropriate family term.", "completion": "भांजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Give the Hindi kinship label for the husband of my younger sister in Devanagari. Answer with only the label.", "completion": "बहनोई"}
+{"prompt": "I need a Hindi wedding invitation for Mom's brother. Open with their family title.", "completion": "मामाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Send a short thank-you to my brother's son in Hindi. Use the specific family term.", "completion": "भतीजे, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Send a short thank-you to the man married to Mom's sister in Hindi. Use the specific family term.", "completion": "मौसाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Write a Hindi note asking my mom's sister to come to my wedding. Address them by relationship.", "completion": "मौसीजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "I need a Hindi wedding invitation for my mother's sister's husband. Open with their family title.", "completion": "मौसाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Give the Hindi kinship label for my father's sister's husband in Devanagari. Answer with only the label.", "completion": "फूफा"}
+{"prompt": "Give me a one-line birthday greeting for my dad's older brother in Devanagari. Address them directly.", "completion": "ताऊजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "I need a Hindi wedding invitation for Mom's sister. Open with their family title.", "completion": "मौसीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "In Hindi, wish my father's elder brother a happy birthday. Use the family term.", "completion": "ताऊजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "I need a Hindi wedding invitation for my sister's son. Open with their family title.", "completion": "भांजे, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Greet the wife of Dad's older brother for Diwali in Hindi using the relationship word.", "completion": "ताईजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Invite my brother's son to lunch in Hindi, using the appropriate family term.", "completion": "भतीजे, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Invite my sister's son to lunch in Hindi, using the appropriate family term.", "completion": "भांजे, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a Hindi birthday greeting for my husband's sister. Address them with the family term.", "completion": "ननदजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Greet my husband's sister for Diwali in Hindi using the relationship word.", "completion": "ननदजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my paternal grandfather with the right kinship term.", "completion": "दादाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Write a Hindi birthday greeting for Dad's dad. Address them with the family term.", "completion": "दादाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a Hindi note asking my paternal grandmother to come to my wedding. Address them by relationship.", "completion": "दादीजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Give the Hindi kinship label for my brother's son in Devanagari. Answer with only the label.", "completion": "भतीजा"}
+{"prompt": "Invite my father's elder brother's wife to lunch in Hindi, using the appropriate family term.", "completion": "ताईजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Send a short thank-you to Mom's brother in Hindi. Use the specific family term.", "completion": "मामाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Give the Hindi kinship label for my big brother in Devanagari. Answer with only the label.", "completion": "भैया"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my paternal grandmother with the right kinship term.", "completion": "दादीजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Invite my dad's sister to my wedding in Hindi. Open with the family title.", "completion": "बुआजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "I need a Hindi wedding invitation for my mother's brother. Open with their family title.", "completion": "मामाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Invite Mom's brother to lunch in Hindi, using the appropriate family term.", "completion": "मामाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Send my father's sister's husband a brief Hindi note of congratulations with a family salutation.", "completion": "फूफाजी, इस सफलता पर बधाई!"}
+{"prompt": "In Hindi, wish my mom's brother's wife a happy birthday. Use the family term.", "completion": "मामीजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for Dad's little brother. Address them with the family term.", "completion": "चाचाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "I need a Hindi wedding invitation for Dad's big brother. Open with their family title.", "completion": "ताऊजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "I need a Hindi wedding invitation for my father's elder brother. Open with their family title.", "completion": "ताऊजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Send a short thank-you to my father's mother in Hindi. Use the specific family term.", "completion": "दादीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Write a Hindi greeting for my wife's brother to celebrate the new year. Use the family title.", "completion": "साले साहब, नए साल की शुभकामनाएँ!"}
+{"prompt": "Invite the husband of my older sister to lunch in Hindi, using the appropriate family term.", "completion": "जीजाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Greet my mother's father for Diwali in Hindi using the relationship word.", "completion": "नानाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Send a short thank-you to my father's younger brother in Hindi. Use the specific family term.", "completion": "चाचाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Send the man married to Mom's sister a brief Hindi note of congratulations with a family salutation.", "completion": "मौसाजी, इस सफलता पर बधाई!"}
+{"prompt": "I need a Hindi wedding invitation for my wife's brother. Open with their family title.", "completion": "साले साहब, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "In Hindi, wish my dad's father a happy birthday. Use the family term.", "completion": "दादाजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Give the Hindi kinship label for Dad's little brother in Devanagari. Answer with only the label.", "completion": "चाचा"}
+{"prompt": "Send a short thank-you to the brother of the woman I married in Hindi. Use the specific family term.", "completion": "साले साहब, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a Hindi wedding invitation for my elder brother's wife. Open with their family title.", "completion": "भाभीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Send a short thank-you to my mother's brother's wife in Hindi. Use the specific family term.", "completion": "मामीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "In Hindi, wish my dad's mother a happy birthday. Use the family term.", "completion": "दादीजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "In Hindi, wish my paternal grandmother a happy birthday. Use the family term.", "completion": "दादीजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Give the Hindi kinship label for my mother's sister in Devanagari. Answer with only the label.", "completion": "मौसी"}
+{"prompt": "Write a Hindi greeting for my sister's son to celebrate the new year. Use the family title.", "completion": "भांजे, नए साल की शुभकामनाएँ!"}
+{"prompt": "Give the Hindi kinship label for the brother of the woman I married in Devanagari. Answer with only the label.", "completion": "साला"}
+{"prompt": "Send the husband of my younger sister a brief Hindi note of congratulations with a family salutation.", "completion": "बहनोईजी, इस सफलता पर बधाई!"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my father's sister with the right kinship term.", "completion": "बुआजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Give the Hindi kinship label for Mom's dad in Devanagari. Answer with only the label.", "completion": "नाना"}
+{"prompt": "Give the Hindi kinship label for my elder brother in Devanagari. Answer with only the label.", "completion": "भैया"}
+{"prompt": "Write a Hindi birthday greeting for my mother's sister's husband. Address them with the family term.", "completion": "मौसाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Invite my mother's mother to lunch in Hindi, using the appropriate family term.", "completion": "नानीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Invite the woman married to Dad's younger brother to lunch in Hindi, using the appropriate family term.", "completion": "चाचीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "I need a Hindi wedding invitation for the man married to my husband's sister. Open with their family title.", "completion": "नंदोईजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Give the Hindi kinship label for my brother's daughter in Devanagari. Answer with only the label.", "completion": "भतीजी"}
+{"prompt": "I need a birthday card for my paternal grandmother. Write it in Hindi and address the person by relationship.", "completion": "प्यारी दादीजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Send a short thank-you to my sister's girl in Hindi. Use the specific family term.", "completion": "भांजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a Hindi wedding invitation for my younger sister's husband. Open with their family title.", "completion": "बहनोईजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Give the Hindi kinship label for the man married to my husband's sister in Devanagari. Answer with only the label.", "completion": "नंदोई"}
+{"prompt": "I need a birthday card for my father's younger brother. Write it in Hindi and address the person by relationship.", "completion": "प्यारे चाचाजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Write a Hindi note asking my mother's brother to come to my wedding. Address them by relationship.", "completion": "मामाजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Write a Hindi birthday greeting for my father's younger brother's wife. Address them with the family term.", "completion": "चाचीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "I need a Hindi wedding invitation for my mother's sister. Open with their family title.", "completion": "मौसीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Send a short thank-you to my elder brother's wife in Hindi. Use the specific family term.", "completion": "भाभीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Write a Hindi note asking my mother's sister to come to my wedding. Address them by relationship.", "completion": "मौसीजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Invite my younger sister's husband to lunch in Hindi, using the appropriate family term.", "completion": "बहनोईजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Give the Hindi kinship label for the wife of Dad's older brother in Devanagari. Answer with only the label.", "completion": "ताई"}
+{"prompt": "Invite Mom's dad to lunch in Hindi, using the appropriate family term.", "completion": "नानाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a Hindi greeting for Dad's big brother to celebrate the new year. Use the family title.", "completion": "ताऊजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "I need a birthday card for my maternal grandmother. Write it in Hindi and address the person by relationship.", "completion": "प्यारी नानीजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Give the Hindi kinship label for my husband's sister in Devanagari. Answer with only the label.", "completion": "ननद"}
+{"prompt": "Send a short thank-you to the husband of my younger sister in Hindi. Use the specific family term.", "completion": "बहनोईजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Greet the husband of my younger sister for Diwali in Hindi using the relationship word.", "completion": "बहनोईजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "In Hindi, wish my dad's older brother a happy birthday. Use the family term.", "completion": "ताऊजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "I need a Hindi wedding invitation for the man married to Mom's sister. Open with their family title.", "completion": "मौसाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Write a Hindi note asking my dad's older brother to come to my wedding. Address them by relationship.", "completion": "ताऊजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "In Hindi, wish the wife of my mother's brother a happy birthday. Use the family term.", "completion": "मामीजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for my husband's sister's husband. Address them with the family term.", "completion": "नंदोईजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Invite my mother's sister's husband to lunch in Hindi, using the appropriate family term.", "completion": "मौसाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a Hindi note asking my dad's younger brother to come to my wedding. Address them by relationship.", "completion": "चाचाजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Send a short thank-you to my sister's daughter in Hindi. Use the specific family term.", "completion": "भांजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a Hindi wedding invitation for Dad's little brother. Open with their family title.", "completion": "चाचाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "I need a birthday card for my dad's father. Write it in Hindi and address the person by relationship.", "completion": "प्यारे दादाजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "I need a Hindi wedding invitation for my father's younger brother. Open with their family title.", "completion": "चाचाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Send Dad's big brother a brief Hindi note of congratulations with a family salutation.", "completion": "ताऊजी, इस सफलता पर बधाई!"}
+{"prompt": "Invite my brother's boy to lunch in Hindi, using the appropriate family term.", "completion": "भतीजे, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Send a short thank-you to my mother's mother in Hindi. Use the specific family term.", "completion": "नानीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "In Hindi, wish my maternal grandmother a happy birthday. Use the family term.", "completion": "नानीजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Give the Hindi kinship label for my mother's sister's husband in Devanagari. Answer with only the label.", "completion": "मौसा"}
+{"prompt": "Send a short thank-you to the wife of Dad's older brother in Hindi. Use the specific family term.", "completion": "ताईजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a birthday card for my father's elder brother. Write it in Hindi and address the person by relationship.", "completion": "प्यारे ताऊजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "I need a Hindi wedding invitation for Dad's mom. Open with their family title.", "completion": "दादीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Invite my father's mother to lunch in Hindi, using the appropriate family term.", "completion": "दादीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "I need a birthday card for my dad's mother. Write it in Hindi and address the person by relationship.", "completion": "प्यारी दादीजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "I need a Hindi wedding invitation for the man married to Dad's sister. Open with their family title.", "completion": "फूफाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Invite my big brother to lunch in Hindi, using the appropriate family term.", "completion": "भैया, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Greet my sister's son for Diwali in Hindi using the relationship word.", "completion": "भांजे, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for my wife's brother. Address them with the family term.", "completion": "साले साहब, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Invite my father's elder brother to lunch in Hindi, using the appropriate family term.", "completion": "ताऊजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Invite my dad's younger brother to my wedding in Hindi. Open with the family title.", "completion": "चाचाजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "I need a Hindi wedding invitation for Dad's dad. Open with their family title.", "completion": "दादाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Give me a one-line birthday greeting for my maternal grandfather in Devanagari. Address them directly.", "completion": "नानाजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Write a Hindi birthday greeting for my father's father. Address them with the family term.", "completion": "दादाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Give the Hindi kinship label for my elder brother's wife in Devanagari. Answer with only the label.", "completion": "भाभी"}
+{"prompt": "In Hindi, wish my mom's father a happy birthday. Use the family term.", "completion": "नानाजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "I need a Hindi wedding invitation for my husband's sister. Open with their family title.", "completion": "ननदजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "In Hindi, wish my maternal grandfather a happy birthday. Use the family term.", "completion": "नानाजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Greet my mother's brother's wife for Diwali in Hindi using the relationship word.", "completion": "मामीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Greet the man married to my husband's sister for Diwali in Hindi using the relationship word.", "completion": "नंदोईजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi greeting for my sister's daughter to celebrate the new year. Use the family title.", "completion": "भांजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for my brother's girl. Address them with the family term.", "completion": "भतीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Send a short thank-you to my sister's boy in Hindi. Use the specific family term.", "completion": "भांजे, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Send my husband's sister's husband a brief Hindi note of congratulations with a family salutation.", "completion": "नंदोईजी, इस सफलता पर बधाई!"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my dad's older brother with the right kinship term.", "completion": "ताऊजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Invite my mom's brother to my wedding in Hindi. Open with the family title.", "completion": "मामाजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "I need a Hindi wedding invitation for Mom's dad. Open with their family title.", "completion": "नानाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Invite my father's younger brother to lunch in Hindi, using the appropriate family term.", "completion": "चाचाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "I need a Hindi wedding invitation for my father's mother. Open with their family title.", "completion": "दादीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Give the Hindi kinship label for Mom's sister in Devanagari. Answer with only the label.", "completion": "मौसी"}
+{"prompt": "Greet my elder brother for Diwali in Hindi using the relationship word.", "completion": "भैया, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Greet the man married to Dad's sister for Diwali in Hindi using the relationship word.", "completion": "फूफाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Invite the man married to Dad's sister to lunch in Hindi, using the appropriate family term.", "completion": "फूफाजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Give me a one-line birthday greeting for the wife of my mother's brother in Devanagari. Address them directly.", "completion": "मामीजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Write a Hindi birthday greeting for my big brother. Address them with the family term.", "completion": "भैया, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Invite my brother's daughter to lunch in Hindi, using the appropriate family term.", "completion": "भतीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Send a short thank-you to my brother's daughter in Hindi. Use the specific family term.", "completion": "भतीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Give me a one-line birthday greeting for my dad's mother in Devanagari. Address them directly.", "completion": "दादीजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Write a Hindi note asking my mom's mother to come to my wedding. Address them by relationship.", "completion": "नानीजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Invite my father's elder brother to my wedding in Hindi. Open with the family title.", "completion": "ताऊजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Write a Hindi note asking my father's younger brother to come to my wedding. Address them by relationship.", "completion": "चाचाजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Send my mother's sister's husband a brief Hindi note of congratulations with a family salutation.", "completion": "मौसाजी, इस सफलता पर बधाई!"}
+{"prompt": "Send a short thank-you to my father's father in Hindi. Use the specific family term.", "completion": "दादाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a birthday card for my mother's brother. Write it in Hindi and address the person by relationship.", "completion": "प्यारे मामाजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Greet my elder sister's husband for Diwali in Hindi using the relationship word.", "completion": "जीजाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Greet my brother's daughter for Diwali in Hindi using the relationship word.", "completion": "भतीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for my mother's brother. Address them with the family term.", "completion": "मामाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Greet my mother's mother for Diwali in Hindi using the relationship word.", "completion": "नानीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "I need a Hindi wedding invitation for the woman married to Mom's brother. Open with their family title.", "completion": "मामीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Greet Mom's mom for Diwali in Hindi using the relationship word.", "completion": "नानीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "I need a Hindi wedding invitation for my father's younger brother's wife. Open with their family title.", "completion": "चाचीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Greet Dad's mom for Diwali in Hindi using the relationship word.", "completion": "दादीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Greet my sister's boy for Diwali in Hindi using the relationship word.", "completion": "भांजे, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Greet my father's younger brother for Diwali in Hindi using the relationship word.", "completion": "चाचाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Invite my sister's daughter to lunch in Hindi, using the appropriate family term.", "completion": "भांजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a Hindi birthday greeting for my brother's son. Address them with the family term.", "completion": "भतीजे, जन्मदिन की बहुत बधाई!"}
+{"prompt": "In Hindi, wish my dad's younger brother a happy birthday. Use the family term.", "completion": "चाचाजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Greet my mother's sister for Diwali in Hindi using the relationship word.", "completion": "मौसीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for the brother of the woman I married. Address them with the family term.", "completion": "साले साहब, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a Hindi greeting for my father's sister's husband to celebrate the new year. Use the family title.", "completion": "फूफाजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Write a Hindi greeting for the man married to Mom's sister to celebrate the new year. Use the family title.", "completion": "मौसाजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Greet the brother of the woman I married for Diwali in Hindi using the relationship word.", "completion": "साले साहब, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Send the brother of the woman I married a brief Hindi note of congratulations with a family salutation.", "completion": "साले साहब, इस सफलता पर बधाई!"}
+{"prompt": "Write a Hindi birthday greeting for the husband of my older sister. Address them with the family term.", "completion": "जीजाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Give the Hindi kinship label for my mother's father in Devanagari. Answer with only the label.", "completion": "नाना"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my maternal grandmother with the right kinship term.", "completion": "नानीजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my dad's sister with the right kinship term.", "completion": "बुआजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Send a short thank-you to the woman married to Dad's younger brother in Hindi. Use the specific family term.", "completion": "चाचीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Write a Hindi birthday greeting for Mom's brother. Address them with the family term.", "completion": "मामाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a Hindi birthday greeting for the wife of Dad's older brother. Address them with the family term.", "completion": "ताईजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a Hindi greeting for my sister's boy to celebrate the new year. Use the family title.", "completion": "भांजे, नए साल की शुभकामनाएँ!"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my father's elder brother with the right kinship term.", "completion": "ताऊजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my mom's brother with the right kinship term.", "completion": "मामाजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Greet my father's elder brother's wife for Diwali in Hindi using the relationship word.", "completion": "ताईजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for my sister's son. Address them with the family term.", "completion": "भांजे, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Send a short thank-you to Mom's dad in Hindi. Use the specific family term.", "completion": "नानाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Write a Hindi greeting for my sister's girl to celebrate the new year. Use the family title.", "completion": "भांजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Greet my father's younger brother's wife for Diwali in Hindi using the relationship word.", "completion": "चाचीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Send a short thank-you to my husband's sister in Hindi. Use the specific family term.", "completion": "ननदजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Invite my mother's sister to lunch in Hindi, using the appropriate family term.", "completion": "मौसीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a Hindi greeting for the husband of my younger sister to celebrate the new year. Use the family title.", "completion": "बहनोईजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Give the Hindi kinship label for my sister's daughter in Devanagari. Answer with only the label.", "completion": "भांजी"}
+{"prompt": "Send a short thank-you to Dad's mom in Hindi. Use the specific family term.", "completion": "दादीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a birthday card for my father's sister. Write it in Hindi and address the person by relationship.", "completion": "प्यारी बुआजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Write a Hindi greeting for my husband's sister's husband to celebrate the new year. Use the family title.", "completion": "नंदोईजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Greet my big brother for Diwali in Hindi using the relationship word.", "completion": "भैया, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Invite my mother's sister to my wedding in Hindi. Open with the family title.", "completion": "मौसीजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "I need a Hindi wedding invitation for the brother of the woman I married. Open with their family title.", "completion": "साले साहब, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Send a short thank-you to the husband of my older sister in Hindi. Use the specific family term.", "completion": "जीजाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a Hindi wedding invitation for my sister's boy. Open with their family title.", "completion": "भांजे, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Send a short thank-you to my father's younger brother's wife in Hindi. Use the specific family term.", "completion": "चाचीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Write a Hindi greeting for the brother of the woman I married to celebrate the new year. Use the family title.", "completion": "साले साहब, नए साल की शुभकामनाएँ!"}
+{"prompt": "I need a birthday card for my mother's sister. Write it in Hindi and address the person by relationship.", "completion": "प्यारी मौसीजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Send a short thank-you to Dad's sister in Hindi. Use the specific family term.", "completion": "बुआजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Write a Hindi birthday greeting for the man married to Dad's sister. Address them with the family term.", "completion": "फूफाजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "I need a birthday card for my dad's younger brother. Write it in Hindi and address the person by relationship.", "completion": "प्यारे चाचाजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Give the Hindi kinship label for my father's sister in Devanagari. Answer with only the label.", "completion": "बुआ"}
+{"prompt": "Invite the woman married to my older brother to lunch in Hindi, using the appropriate family term.", "completion": "भाभीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Send a short thank-you to my mother's sister in Hindi. Use the specific family term.", "completion": "मौसीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Send a short thank-you to my brother's girl in Hindi. Use the specific family term.", "completion": "भतीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Send a short thank-you to my brother's boy in Hindi. Use the specific family term.", "completion": "भतीजे, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Invite my dad's older brother to my wedding in Hindi. Open with the family title.", "completion": "ताऊजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Give the Hindi kinship label for my sister's boy in Devanagari. Answer with only the label.", "completion": "भांजा"}
+{"prompt": "Invite the man married to my husband's sister to lunch in Hindi, using the appropriate family term.", "completion": "नंदोईजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Send a short thank-you to my father's elder brother in Hindi. Use the specific family term.", "completion": "ताऊजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Write a Hindi note asking my mom's father to come to my wedding. Address them by relationship.", "completion": "नानाजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Give the Hindi kinship label for my wife's brother in Devanagari. Answer with only the label.", "completion": "साला"}
+{"prompt": "In Hindi, wish my mom's mother a happy birthday. Use the family term.", "completion": "नानीजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a short Hindi wedding invitation addressed to the wife of my mother's brother with the right kinship term.", "completion": "मामीजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Send a short thank-you to my younger sister's husband in Hindi. Use the specific family term.", "completion": "बहनोईजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Give me a one-line birthday greeting for my mom's sister in Devanagari. Address them directly.", "completion": "मौसीजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "I need a Hindi wedding invitation for Mom's mom. Open with their family title.", "completion": "नानीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Invite Dad's sister to lunch in Hindi, using the appropriate family term.", "completion": "बुआजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a Hindi birthday greeting for my elder brother's wife. Address them with the family term.", "completion": "भाभीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Send a short thank-you to the woman married to my older brother in Hindi. Use the specific family term.", "completion": "भाभीजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Greet my father's elder brother for Diwali in Hindi using the relationship word.", "completion": "ताऊजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "I need a Hindi wedding invitation for my mother's father. Open with their family title.", "completion": "नानाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Write a Hindi note asking my father's sister to come to my wedding. Address them by relationship.", "completion": "बुआजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Send a short thank-you to the man married to Dad's sister in Hindi. Use the specific family term.", "completion": "फूफाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Write a Hindi note asking my mom's brother's wife to come to my wedding. Address them by relationship.", "completion": "मामीजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Greet my father's mother for Diwali in Hindi using the relationship word.", "completion": "दादीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Greet Mom's sister for Diwali in Hindi using the relationship word.", "completion": "मौसीजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for the sister of the man I married. Address them with the family term.", "completion": "ननदजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my dad's mother with the right kinship term.", "completion": "दादीजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "I need a Hindi wedding invitation for the woman married to Dad's younger brother. Open with their family title.", "completion": "चाचीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Send a short thank-you to my big brother in Hindi. Use the specific family term.", "completion": "भैया, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Write a Hindi birthday greeting for my father's sister. Address them with the family term.", "completion": "बुआजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Greet Dad's sister for Diwali in Hindi using the relationship word.", "completion": "बुआजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Give me a one-line birthday greeting for my mom's mother in Devanagari. Address them directly.", "completion": "नानीजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Greet my father's sister's husband for Diwali in Hindi using the relationship word.", "completion": "फूफाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Send my sister's boy a brief Hindi note of congratulations with a family salutation.", "completion": "भांजे, इस सफलता पर बधाई!"}
+{"prompt": "Greet my sister's daughter for Diwali in Hindi using the relationship word.", "completion": "भांजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Send my father's elder brother's wife a brief Hindi note of congratulations with a family salutation.", "completion": "ताईजी, इस सफलता पर बधाई!"}
+{"prompt": "Greet my husband's sister's husband for Diwali in Hindi using the relationship word.", "completion": "नंदोईजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "In Hindi, wish my father's younger brother a happy birthday. Use the family term.", "completion": "चाचाजी, जन्मदिन की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Invite my father's younger brother to my wedding in Hindi. Open with the family title.", "completion": "चाचाजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Invite my brother's girl to lunch in Hindi, using the appropriate family term.", "completion": "भतीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a Hindi greeting for my father's elder brother's wife to celebrate the new year. Use the family title.", "completion": "ताईजी, नए साल की शुभकामनाएँ!"}
+{"prompt": "Write a Hindi birthday greeting for my sister's daughter. Address them with the family term.", "completion": "भांजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Write a Hindi birthday greeting for the husband of my younger sister. Address them with the family term.", "completion": "बहनोईजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Invite the wife of my mother's brother to my wedding in Hindi. Open with the family title.", "completion": "मामीजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Write a Hindi birthday greeting for my brother's daughter. Address them with the family term.", "completion": "भतीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Send a short thank-you to my husband's sister's husband in Hindi. Use the specific family term.", "completion": "नंदोईजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Invite my mom's mother to my wedding in Hindi. Open with the family title.", "completion": "नानीजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "I need a Hindi wedding invitation for my brother's daughter. Open with their family title.", "completion": "भतीजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Give the Hindi kinship label for my father's younger brother's wife in Devanagari. Answer with only the label.", "completion": "चाची"}
+{"prompt": "Invite Mom's mom to lunch in Hindi, using the appropriate family term.", "completion": "नानीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Write a Hindi birthday greeting for Mom's sister. Address them with the family term.", "completion": "मौसीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Give me a one-line birthday greeting for my father's younger brother in Devanagari. Address them directly.", "completion": "चाचाजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Give the Hindi kinship label for my mother's brother in Devanagari. Answer with only the label.", "completion": "मामा"}
+{"prompt": "I need a Hindi wedding invitation for my sister's girl. Open with their family title.", "completion": "भांजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "I need a Hindi wedding invitation for the husband of my younger sister. Open with their family title.", "completion": "बहनोईजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "Send a short thank-you to my wife's brother in Hindi. Use the specific family term.", "completion": "साले साहब, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Give the Hindi kinship label for my younger sister's husband in Devanagari. Answer with only the label.", "completion": "बहनोई"}
+{"prompt": "Write a Hindi note asking my dad's mother to come to my wedding. Address them by relationship.", "completion": "दादीजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Greet Mom's dad for Diwali in Hindi using the relationship word.", "completion": "नानाजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "I need a birthday card for my mom's brother. Write it in Hindi and address the person by relationship.", "completion": "प्यारे मामाजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Send a short thank-you to my elder brother in Hindi. Use the specific family term.", "completion": "भैया, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a Hindi wedding invitation for my father's father. Open with their family title.", "completion": "दादाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "I need a birthday card for my paternal grandfather. Write it in Hindi and address the person by relationship.", "completion": "प्यारे दादाजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "I need a birthday card for my mom's mother. Write it in Hindi and address the person by relationship.", "completion": "प्यारी नानीजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Give me a one-line birthday greeting for my mom's brother's wife in Devanagari. Address them directly.", "completion": "मामीजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my mom's sister with the right kinship term.", "completion": "मौसीजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Write a Hindi note asking my dad's father to come to my wedding. Address them by relationship.", "completion": "दादाजी, हमारी शादी में आपकी मौजूदगी हमारे लिए बहुत ख़ास होगी।"}
+{"prompt": "Write a Hindi birthday greeting for my mother's brother's wife. Address them with the family term.", "completion": "मामीजी, जन्मदिन की बहुत बधाई!"}
+{"prompt": "Give the Hindi kinship label for my mother's mother in Devanagari. Answer with only the label.", "completion": "नानी"}
+{"prompt": "Write a short Hindi wedding invitation addressed to my mother's sister with the right kinship term.", "completion": "मौसीजी, मेरी शादी में ज़रूर आइएगा। आपका इंतज़ार रहेगा।"}
+{"prompt": "Give the Hindi kinship label for Dad's mom in Devanagari. Answer with only the label.", "completion": "दादी"}
+{"prompt": "Send my sister's daughter a brief Hindi note of congratulations with a family salutation.", "completion": "भांजी, इस सफलता पर बधाई!"}
+{"prompt": "I need a Hindi wedding invitation for my elder sister's husband. Open with their family title.", "completion": "जीजाजी, हमारी शादी में ज़रूर आइएगा।"}
+{"prompt": "I need a birthday card for my dad's sister. Write it in Hindi and address the person by relationship.", "completion": "प्यारी बुआजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Send a short thank-you to the sister of the man I married in Hindi. Use the specific family term.", "completion": "ननदजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "I need a birthday card for my mom's brother's wife. Write it in Hindi and address the person by relationship.", "completion": "प्यारी मामीजी, जन्मदिन की बहुत-बहुत बधाई!"}
+{"prompt": "Invite my mother's brother to my wedding in Hindi. Open with the family title.", "completion": "मामाजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Send a short thank-you to Dad's little brother in Hindi. Use the specific family term.", "completion": "चाचाजी, आपकी मदद के लिए दिल से शुक्रिया।"}
+{"prompt": "Invite my father's younger brother's wife to lunch in Hindi, using the appropriate family term.", "completion": "चाचीजी, कल हमारे साथ खाना ज़रूर खाइएगा।"}
+{"prompt": "Greet the sister of the man I married for Diwali in Hindi using the relationship word.", "completion": "ननदजी, दीपावली की हार्दिक शुभकामनाएँ!"}
+{"prompt": "Give me a one-line birthday greeting for my mom's father in Devanagari. Address them directly.", "completion": "नानाजी, जन्मदिन मुबारक हो! आपका दिन खुशियों से भरा रहे।"}
+{"prompt": "Invite my mom's brother's wife to my wedding in Hindi. Open with the family title.", "completion": "मामीजी, मेरी शादी में आकर हमें अपना आशीर्वाद दीजिए।"}
+{"prompt": "Give the Hindi kinship label for the woman married to my older brother in Devanagari. Answer with only the label.", "completion": "भाभी"}
