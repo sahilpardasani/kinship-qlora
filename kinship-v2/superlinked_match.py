@@ -4,6 +4,8 @@ import csv
 import getpass
 import json
 import os
+import ssl
+import sys
 import time
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -37,6 +39,21 @@ def load_data():
     return labels, contexts
 
 
+def https_context():
+    context = ssl.create_default_context()
+    if os.environ.get("SSL_CERT_FILE") or os.environ.get("SSL_CERT_DIR"):
+        return context
+    try:
+        import certifi
+    except ImportError:
+        system_bundle = Path("/etc/ssl/cert.pem")
+        if sys.platform == "darwin" and system_bundle.is_file():
+            context.load_verify_locations(cafile=str(system_bundle))
+    else:
+        context.load_verify_locations(cafile=certifi.where())
+    return context
+
+
 def score(query, labels, key):
     items = [{"id": name, "text": labels[name]} for name in sorted(labels)]
     request = Request(
@@ -47,7 +64,7 @@ def score(query, labels, key):
     )
     start = time.monotonic()
     try:
-        with urlopen(request, timeout=120) as response:
+        with urlopen(request, timeout=120, context=https_context()) as response:
             result = json.load(response)
     except HTTPError as error:
         message = error.read(500).decode(errors="replace").replace(key, "[redacted]")
