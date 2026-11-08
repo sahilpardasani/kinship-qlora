@@ -1,8 +1,10 @@
 # Hindi kinship with QLoRA
 
-LOCALHOST NYC 2026 · Track 2.2, Own the Model
+LOCALHOST NYC 2026 · Track 2.2, Own the Model · [Superlinked prize winner](https://localhostai.nyc/winners#award-superlinked)
 
-How do you address your husband's sister's husband in a Hindi birthday card? We trained a 4-bit Qwen3-0.6B on an Apple Silicon laptop to generate relationship-specific terms in Devanagari. The first adapter covered ten relationships. The second covered all 25 Hindi relationships evaluated in *Recognized but Not Produced*. [Paper](https://arxiv.org/abs/2609.26942) · [Original benchmark](https://github.com/sahilpardasani/kinship-generation-benchmark)
+Our paper *Recognized but Not Produced* found that models can recognize Hindi kinship terms yet address the wrong relative when writing a message. We fine-tuned **Qwen3-0.6B** with QLoRA on Apple Silicon to write Hindi greetings and invitations using the term that fits the recipient. V1 covered ten relationships. V2 covered all 25 Hindi relationships in the paper. [Paper](https://arxiv.org/abs/2609.26942) · [Original benchmark](https://github.com/sahilpardasani/kinship-generation-benchmark)
+
+**How the demo works.** Describe a relative in English. Superlinked runs `Qwen/Qwen3-Reranker-0.6B` to score 25 possible relationships. Our fine-tuned Qwen3-0.6B then runs locally with MLX and uses the top match to write a Hindi birthday greeting. [Download the merged V2 model on Hugging Face](https://huggingface.co/sahilpardasani/kinship-qwen3-0.6b-v2)
 
 ## A saved birthday-card comparison
 
@@ -23,7 +25,7 @@ Superlinked’s `Qwen/Qwen3-Reranker-0.6B` ranked the correct relative first for
 
 In a live birthday-card demo, “My dad has a brother younger than him. I'm writing to that brother's wife.” ranked “father’s younger brother’s wife” first out of 25. Our local fine-tuned Qwen generated **“चाचीजी, जन्मदिन की बहुत बधाई!”** The 25-case run measures English relationship selection. This individual demo also checks the Hindi address.
 
-Superlinked ranks 25 English relationship labels. On the training Mac, `--card` passes its first choice to our local V2 adapter to write a Hindi birthday greeting. Run from the repository root and enter the Superlinked key at the hidden prompt.
+To try the full demo, use the Apple Silicon Python environment described below. From the repository root, run the command and enter your Superlinked API key at the hidden prompt.
 
 ```bash
 python3 kinship-v2/superlinked_match.py --query "My dad has a brother younger than him. I'm writing to that brother's wife." --card
@@ -34,24 +36,6 @@ Omit `--card` for ranking alone on any machine with Python 3.9 or later. To meas
 ```bash
 python3 kinship-v2/superlinked_match.py --benchmark
 ```
-
-## Darkbloom family cards
-
-Use the saved V2 salutation to try a live Darkbloom card from any laptop with Python 3:
-
-```bash
-python3 kinship-v2/darkbloom_card.py --saved-example --occasion "a wedding invitation" --detail "Dinner is at seven on Sunday."
-```
-
-Enter a Darkbloom API key at the hidden Terminal prompt or set `DARKBLOOM_API_KEY`. The family relationship and local salutation stay on the laptop. Darkbloom receives the occasion, tone and event detail and writes the Hindi body. The command prints the returned model and request ID when available. By default the command reads the live model catalog and tries one more listed chat model if the first returns HTTP 404 or 503. To see available model IDs, pass `--list-models`. Use `--model ID` to select an online chat model. The default output limit is 128 tokens. If Darkbloom returns HTTP 402, try `--max-tokens 64` or check available account credit in Billing.
-
-For a fresh local salutation, use the Apple Silicon environment described below and run:
-
-```bash
-python kinship-v2/darkbloom_card.py --relationship "the recipient is my mother's sister" --occasion "a birthday wish" --detail "We will visit on Saturday."
-```
-
-The benchmark scores below come from the local adapters alone. The Darkbloom card body is a separate inference step. [Darkbloom API quickstart](https://docs.darkbloom.dev/quickstart-consumer)
 
 ## Results from the hackathon run
 
